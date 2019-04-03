@@ -1,0 +1,24 @@
+\babel@toc {ngerman}{}
+\babel@toc {ngerman}{}
+\contentsline {chapter}{\numberline {1}Abstract}{}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}AbstractGerman}{}{section.1.1}% 
+\contentsline {section}{\numberline {1.2}AbstractEnglish}{}{section.1.2}% 
+\thispagestyle {empty}
+\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{}{chapter*.3}% 
+\contentsline {chapter}{\numberline {2}Einf\IeC {\"u}hrung}{1}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Section}{1}{section.2.1}% 
+\contentsline {section}{\numberline {2.2}Section}{1}{section.2.2}% 
+\contentsline {subsection}{\numberline {2.2.1}Subsection}{1}{subsection.2.2.1}% 
+\contentsline {subsubsection}{\numberline {2.2.1.1}SubSubSection}{1}{subsubsection.2.2.1.1}% 
+\contentsline {chapter}{\numberline {3}Versuch}{2}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Section}{2}{section.3.1}% 
+\contentsline {subsection}{\numberline {3.1.1}Subsection}{2}{subsection.3.1.1}% 
+\contentsline {subsubsection}{\numberline {3.1.1.1}SubSubSection}{2}{subsubsection.3.1.1.1}% 
+\contentsline {chapter}{\numberline {4}Evaluation}{3}{chapter.4}% 
+\contentsline {chapter}{\numberline {5}Einf\IeC {\"u}hrung}{4}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Section}{4}{section.5.1}% 
+\contentsline {subsection}{\numberline {5.1.1}Subsection}{4}{subsection.5.1.1}% 
+\contentsline {subsubsection}{\numberline {5.1.1.1}SubSubSection}{4}{subsubsection.5.1.1.1}% 
+\contentsline {chapter}{Literatur}{}{chapter*.4}% 
+\contentsline {chapter}{\nonumberline Anhang}{1}{chapter*.5}% 
+\contentsline {section}{\numberline {A}Anhang 1}{1}{section.Alph0.1}% 
