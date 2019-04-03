@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.3)  3 APR 2019 14:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.3)  3 APR 2019 14:38
 entering extended mode
 **./3PT-IK-VR.tex
 (3PT-IK-VR.tex
@@ -2073,7 +2073,7 @@ l.46 \include{Kapitel/Anhang}
 
 pdfTeX warning: pdflatex (file ./Kapitel/Ehrenwort.pdf): PDF inclusion: found P
 DF version <1.6>, but at most version <1.5> allowed
-<Kapitel/Ehrenwort.pdf, id=98, 597.45204pt x 845.1575pt>
+<Kapitel/Ehrenwort.pdf, id=97, 597.45204pt x 845.1575pt>
 File: Kapitel/Ehrenwort.pdf Graphic file (type pdf)
 <use Kapitel/Ehrenwort.pdf>
 Package pdftex.def Info: Kapitel/Ehrenwort.pdf  used on input line 48.
@@ -2094,7 +2094,7 @@ DF version <1.6>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex (file ./Kapitel/Ehrenwort.pdf): PDF inclusion: found P
 DF version <1.6>, but at most version <1.5> allowed
-<Kapitel/Ehrenwort.pdf, id=101, page=1, 597.45204pt x 845.1575pt>
+<Kapitel/Ehrenwort.pdf, id=100, page=1, 597.45204pt x 845.1575pt>
 File: Kapitel/Ehrenwort.pdf Graphic file (type pdf)
 <use Kapitel/Ehrenwort.pdf, page 1>
 Package pdftex.def Info: Kapitel/Ehrenwort.pdf , page1 used on input line 48.
@@ -2134,32 +2134,25 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 49.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 49.
 Package rerunfilecheck Info: File `3PT-IK-VR.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 38365 strings out of 492945
- 728230 string characters out of 3126253
+ 38363 strings out of 492945
+ 728212 string characters out of 3126253
  1123623 words of memory out of 3000000
- 41548 multiletter control sequences out of 15000+200000
+ 41547 multiletter control sequences out of 15000+200000
  585004 words of font info for 60 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,18n,73p,9114b,606s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{chapter*.6} has been referenced but does not exis
-t, replaced by a fixed one
-
-{C:/Users/Robin/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}
-<C:/Users/Robin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.
-pfb><C:/Users/Robin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr
-12.pfb><C:/Users/Robin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/
-lmri12.pfb><C:/Users/Robin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
-/lm/lmro12.pfb><C:/Users/Robin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/lm/lmssbx10.pfb>
-Output written on 3PT-IK-VR.pdf (11 pages, 179866 bytes).
+{C:/Users/Robin/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.en
+c}<C:/Users/Robin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbx1
+2.pfb><C:/Users/Robin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/l
+mr12.pfb><C:/Users/Robin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/l
+m/lmri12.pfb><C:/Users/Robin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/lm/lmro12.pfb><C:/Users/Robin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+public/lm/lmssbx10.pfb>
+Output written on 3PT-IK-VR.pdf (11 pages, 179930 bytes).
 PDF statistics:
- 215 PDF objects out of 1000 (max. 8388607)
- 32 named destinations out of 1000 (max. 500000)
+ 214 PDF objects out of 1000 (max. 8388607)
+ 31 named destinations out of 1000 (max. 500000)
  219 words of extra memory for PDF output out of 10000 (max. 10000000)
 
