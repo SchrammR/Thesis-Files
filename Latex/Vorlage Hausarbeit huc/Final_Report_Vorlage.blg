@@ -1,0 +1,16 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: Final_Report_Vorlage.aux
+The style file: unsrt.bst
+A level-1 auxiliary file: Kapitel/Deckblatt.aux
+A level-1 auxiliary file: Kapitel/Inhalt.aux
+A level-1 auxiliary file: Kapitel/BildVerzeichnis.aux
+A level-1 auxiliary file: Kapitel/Kap1.aux
+A level-1 auxiliary file: Kapitel/Quellenverzeichnis.aux
+A level-1 auxiliary file: Kapitel/Anhang.aux
+Database file #1: Kapitel/Literatur.bib
+I was expecting a `,' or a `}'---line 6 of file Kapitel/Literatur.bib
+ :   
+ :   publisher={BlindVerlag}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty publisher in BlindBuch
+(There was 1 error message)
