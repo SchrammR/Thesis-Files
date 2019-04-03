@@ -1,0 +1,20 @@
+TY  - CHAP
+AU  - Amin, H.
+AU  - Reeve, C. M.
+AU  - Earnshaw, R.
+ED  - Earnshaw, Rae
+ED  - Vince, John
+PY  - 2001
+DA  - 2001//
+TI  - Enhanced Avatar Control Using Neural Networks
+BT  - Digital Content Creation
+SP  - 272
+EP  - 280
+PB  - Springer London
+CY  - London
+AB  - In this chapter we present a method that combines neural networks and the inverse kinematics to allow a considerable reduction of the number of motion capture data packets sent over network.A subset of inverse kinematics,the SHAKE algorithm, is used to configure an articulated skeleton model.The role of the neural network is to learn the sensor's behaviour during training with all sensors attached to the user and to predict the locations of OFF sensors by taking ON sensor(s) as input. ln this way, the number of sensors can be reduced to as few as one.
+SN  - 978-1-4471-0293-9
+UR  - https://doi.org/10.1007/978-1-4471-0293-9_17
+DO  - 10.1007/978-1-4471-0293-9_17
+ID  - Amin2001
+ER  - 
