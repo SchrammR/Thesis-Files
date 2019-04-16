@@ -13,13 +13,25 @@ public class DodgeGameController : MonoBehaviour
     public bool gameIsStarted = false;
     public GameObject hazard;
     public float roomSizeX, roomSizeY, roomSizeZ;
-    private GameObject hazardInstance;
-
+    private GameObject[] hazardInstances;
+    private Vector3[] targets ;
+    private Random random = new Random();
 
     public int hazardCount = 0;
+    public int maxHazardCount = 5;
+    private int hazardsMoving = 0;
+
+    public float hazardInterval = 3f;
+    public float hazardSpeed = 2f;
+
+    private int hazardsFinishedMoving = 0;
+
     void Start()
     {
         pointsText.text = "Punkte: " + score;
+        hazardInstances = new GameObject[maxHazardCount];
+        targets = new Vector3[maxHazardCount];
+        createHazards();
     }
 
     void Update()
@@ -27,29 +39,97 @@ public class DodgeGameController : MonoBehaviour
         if(gameIsStarted)
         {
             pointsText.text = "Punkte: " + score;
-            //in intervall random
-            createHazards(new Vector3(Random.Range(roomSizeX, -roomSizeX), Random.Range(0, roomSizeY/2), 0), new Vector3(1, 1, 16));
+            moveHazards();
         }
     }
 
-    private void createHazards(Vector3 coordinates, Vector3 size){
-        spawnBoxHazard();
-    }
-
-    private void spawnBoxHazard()
+    private void createHazards()
     {
-        if (hazardCount < 1)
+        //in random direction 1lefttop, 2backtop, 3righttop, 4lefthalfbottom
+        for (int i = 0; i < maxHazardCount; i++)
         {
-            hazardInstance = Instantiate(hazard, new Vector3(5, 2, 0), Quaternion.identity);
-            hazardInstance.transform.localScale = new Vector3(1, 1, 6);
-            hazardCount++;
+            spawnBoxHazard(Random.Range(1, 6));
         }
-        // Move our position a step closer to the target.
-        float step = 1 * Time.deltaTime; // calculate distance to move
-        hazardInstance.transform.position = Vector3.MoveTowards(hazardInstance.transform.position, new Vector3(-5, 2, 0), step);
     }
 
+    private void spawnBoxHazard(int direction)
+    {
+        Vector3 position = new Vector3(0, 0, 0);
+        Vector3 scale = new Vector3(0, 0, 0);
+        Vector3 target = new Vector3(0, 0, 0);
+        //left
+        if (direction == 1)
+        {
+            position = new Vector3(-5, 2, 0);
+            scale = new Vector3(1, 1, 6);
+            target = new Vector3(5, 2, 0);
+        }
+        if (direction == 2)
+        {
+            position = new Vector3(0, 2, -5);
+            scale = new Vector3(5, 1, 1);
+            target = new Vector3(0, 2, 5);
+        }
+        if (direction == 3)
+        {
+            position = new Vector3(5, 2, 0);
+            scale = new Vector3(1, 1, 6);
+            target = new Vector3(-5, 2, 0);
+        }
+        if (direction == 4)
+        {
+            position = new Vector3(-5, 0, Random.Range(-4, 4));
+            scale = new Vector3(1, 1, Random.Range(1, 3));
+            target = new Vector3(5, 0, Random.Range(-4, 4));
+        }
+        if (direction == 5)
+        {
+            position = new Vector3(Random.Range(-4, 4), 0, -5);
+            scale = new Vector3(1, 1, Random.Range(1, 3));
+            target = new Vector3(Random.Range(-4, 4), 0, 5);
+        }
+        if (direction == 6)
+        {
+            position = new Vector3(5, 0, Random.Range(-4, 4));
+            scale = new Vector3(1, 1, Random.Range(1, 3));
+            target = new Vector3(-5, 0, Random.Range(-4, 4));
+        }
+        hazardInstances[hazardCount] = Instantiate(hazard, position, Quaternion.identity);
+        hazardInstances[hazardCount].transform.localScale = scale;
+        targets[hazardCount] = target;
+        hazardCount++;
+    }
 
+    private void moveHazards()
+    {
+        float step = hazardSpeed * Time.deltaTime;
+
+        for (int i= hazardsFinishedMoving; i < hazardsMoving; i++)
+        {
+            if(hazardInstances[i] != null)
+            {
+                hazardInstances[i].transform.position = Vector3.MoveTowards(hazardInstances[i].transform.position, targets[i], step);
+                if(hazardInstances[i].transform.position == targets[i])
+                {
+                    hazardInstances[i].SetActive(false);
+                    hazardsFinishedMoving++;
+                }
+            }
+        }
+    }
+
+    private void moveHazard()
+    {
+        hazardsMoving++;
+        Debug.Log(hazardsMoving);
+    }
+
+    public void startGame()
+    {
+        CancelInvoke();
+        InvokeRepeating("moveHazard", 1, hazardInterval);
+        gameIsStarted = true;
+    }
 
     public void addPointsToScore(int points){
         this.score += points;

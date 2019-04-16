@@ -18,7 +18,7 @@ public class StartGameCollider : MonoBehaviour
     }
 
     private void OnTriggerEnter(Collider otherCollider){
-        gameController.gameIsStarted = true;
+        gameController.startGame();
         Destroy(this.gameObject);
     }
 
