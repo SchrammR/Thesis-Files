@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 
 public class DodgeGameController : MonoBehaviour
 {
     public int score = 0;
     public Text pointsText;
+    public TextMeshPro pointsTextWorld;
     public SphereCollider playerCollider;
     public BoxCollider hazardCollider;
     public bool gameIsStarted = false;
@@ -29,6 +31,7 @@ public class DodgeGameController : MonoBehaviour
     void Start()
     {
         pointsText.text = "Punkte: " + score;
+        pointsTextWorld.text = "Punkte: " + score;
         hazardInstances = new GameObject[maxHazardCount];
         targets = new Vector3[maxHazardCount];
         createHazards();
@@ -39,6 +42,7 @@ public class DodgeGameController : MonoBehaviour
         if(gameIsStarted)
         {
             pointsText.text = "Punkte: " + score;
+            pointsTextWorld.text = "Punkte: " + score;
             moveHazards();
         }
     }
