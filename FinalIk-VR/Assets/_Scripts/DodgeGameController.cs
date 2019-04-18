@@ -106,7 +106,7 @@ public class DodgeGameController : MonoBehaviour
 
         for (int i= hazardsFinishedMoving; i < hazardsMoving; i++)
         {
-            if(hazardInstances[i] != null)
+            if(i < hazardInstances.Length && hazardInstances[i] != null)
             {
                 hazardInstances[i].transform.position = Vector3.MoveTowards(hazardInstances[i].transform.position, targets[i], step);
                 if(hazardInstances[i].transform.position == targets[i])
