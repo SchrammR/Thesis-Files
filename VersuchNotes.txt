@@ -16,3 +16,11 @@ geben punkte wenn aus dem raum
 hazards auch von vorne
 
 häufigkeit und richtung justieren
+
+Start Game Text auf rechteck
+
+
+
+Änderungen:
+Wände besser, Boden heller
+anderer Spiegel
