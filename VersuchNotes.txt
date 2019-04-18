@@ -1,14 +1,6 @@
-Weniger zum Ducken, mehr zum laufen
 richtiger Spiegel
 
-
-
-Raum größer um gefahren früher zu erkennen
-
 geschwindigkeit war in ordnung
-
-hazards verschwinden beim treffen
-geben punkte wenn aus dem raum
 
 hazards auch von vorne
 
@@ -20,7 +12,6 @@ fliegende in anderer Farbe?
 Generell bunter machen?
 
 Änderungen:
-Wände besser, Boden heller
 anderer Spiegel
 
 
@@ -28,3 +19,13 @@ anderer Spiegel
 DONE:
 Punkte anzeigen
 - hud oder wand
+
+
+Raum größer um gefahren früher zu erkennen
+
+Weniger zum Ducken, mehr zum laufen
+
+hazards verschwinden beim treffen
+geben punkte wenn aus dem raum
+
+Wände besser, Boden heller
