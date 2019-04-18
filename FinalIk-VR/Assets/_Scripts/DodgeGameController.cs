@@ -14,10 +14,11 @@ public class DodgeGameController : MonoBehaviour
     public BoxCollider hazardCollider;
     public bool gameIsStarted = false;
     public GameObject hazard;
-    public float roomSizeX, roomSizeY, roomSizeZ;
     private GameObject[] hazardInstances;
     private Vector3[] targets ;
     private Random random = new Random();
+    public Transform spawnPointLeft, spawnPointRight, spawnPointBack, spawnPointFront;
+    public float playAreaSizeX, playAreaSizeY;
 
     public int hazardCount = 0;
     public int maxHazardCount = 5;
@@ -49,55 +50,69 @@ public class DodgeGameController : MonoBehaviour
 
     private void createHazards()
     {
-        //in random direction 1lefttop, 2backtop, 3righttop, 4lefthalfbottom
         for (int i = 0; i < maxHazardCount; i++)
         {
-            spawnBoxHazard(Random.Range(1, 6));
+            rollSpawningDirection(Random.Range(1, 100));
         }
     }
 
-    private void spawnBoxHazard(int direction)
+    private void rollSpawningDirection(int direction)
     {
+        string directionString = "";
+
+        if(0 < direction && direction <= 33)
+        {
+            directionString = "left";
+        }
+        else if (34 < direction && direction <= 66)
+        {
+            directionString = "right";
+        }
+        else if (66 < direction && direction <= 100)
+        {
+            directionString = "back";
+        }
+
         Vector3 position = new Vector3(0, 0, 0);
         Vector3 scale = new Vector3(0, 0, 0);
         Vector3 target = new Vector3(0, 0, 0);
-        //left
-        if (direction == 1)
+
+        int deviationSideways = Random.Range(-2, 2);
+        switch (directionString)
         {
-            position = new Vector3(-5, 2, 0);
-            scale = new Vector3(1, 1, 6);
-            target = new Vector3(5, 2, 0);
+            case "left":
+                position = spawnPointLeft.position;
+                scale = new Vector3(1, 1, Random.Range(1, 3));
+                target = spawnPointRight.position;
+                position.z += deviationSideways;
+                target.z += deviationSideways;
+                break;
+            case "right":
+                position = spawnPointBack.position;
+                scale = new Vector3(1, 1, Random.Range(1, 3));
+                target = spawnPointFront.position;
+                position.z += deviationSideways;
+                target.z += deviationSideways;
+
+                break;
+            case "back":
+                position = spawnPointRight.position;
+                scale = new Vector3(1, 1, Random.Range(1, 3));
+                target = spawnPointLeft.position;
+                position.x += deviationSideways;
+                target.x += deviationSideways;
+                break;
         }
-        if (direction == 2)
+
+        //floating overhead
+        int floatingOver = Random.Range(1, 10);
+        if (floatingOver <= 2)
         {
-            position = new Vector3(0, 2, -5);
-            scale = new Vector3(5, 1, 1);
-            target = new Vector3(0, 2, 5);
+            position.y += 2;
+            target.y += 2;
+            scale = new Vector3(Random.Range(1, 4), 1, Random.Range(1, 4));
         }
-        if (direction == 3)
-        {
-            position = new Vector3(5, 2, 0);
-            scale = new Vector3(1, 1, 6);
-            target = new Vector3(-5, 2, 0);
-        }
-        if (direction == 4)
-        {
-            position = new Vector3(-5, 0, Random.Range(-4, 4));
-            scale = new Vector3(1, 1, Random.Range(1, 3));
-            target = new Vector3(5, 0, Random.Range(-4, 4));
-        }
-        if (direction == 5)
-        {
-            position = new Vector3(Random.Range(-4, 4), 0, -5);
-            scale = new Vector3(1, 1, Random.Range(1, 3));
-            target = new Vector3(Random.Range(-4, 4), 0, 5);
-        }
-        if (direction == 6)
-        {
-            position = new Vector3(5, 0, Random.Range(-4, 4));
-            scale = new Vector3(1, 1, Random.Range(1, 3));
-            target = new Vector3(-5, 0, Random.Range(-4, 4));
-        }
+
         hazardInstances[hazardCount] = Instantiate(hazard, position, Quaternion.identity);
         hazardInstances[hazardCount].transform.localScale = scale;
         targets[hazardCount] = target;
@@ -115,7 +130,11 @@ public class DodgeGameController : MonoBehaviour
                 hazardInstances[i].transform.position = Vector3.MoveTowards(hazardInstances[i].transform.position, targets[i], step);
                 if(hazardInstances[i].transform.position == targets[i])
                 {
-                    hazardInstances[i].SetActive(false);
+                    if (hazardInstances[i].active)
+                    {
+                        hazardInstances[i].SetActive(false);
+                        addPointsToScore(1);
+                    }
                     hazardsFinishedMoving++;
                 }
             }
@@ -126,6 +145,10 @@ public class DodgeGameController : MonoBehaviour
     {
         hazardsMoving++;
         Debug.Log(hazardsMoving);
+        if(hazardsMoving > maxHazardCount)
+        {
+            CancelInvoke();
+        }
     }
 
     public void startGame()

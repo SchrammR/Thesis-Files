@@ -20,8 +20,8 @@ public class hazardCollider : MonoBehaviour
     
     private void OnTriggerEnter(Collider otherCollider){
         if(otherCollider.gameObject.CompareTag("Hazard")){
-            Debug.Log("Hazard Trigger");
-            gameController.subtractPointsFromScore(10);
+            gameController.subtractPointsFromScore(1);
+            otherCollider.gameObject.SetActive(false);
         }
     }
 }

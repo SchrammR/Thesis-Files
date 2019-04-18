@@ -7,9 +7,6 @@ Raum größer um gefahren früher zu erkennen
 
 geschwindigkeit war in ordnung
 
-Punkte anzeigen
-- hud oder wand
-
 hazards verschwinden beim treffen
 geben punkte wenn aus dem raum
 
@@ -19,8 +16,15 @@ häufigkeit und richtung justieren
 
 Start Game Text auf rechteck
 
-
+fliegende in anderer Farbe?
+Generell bunter machen?
 
 Änderungen:
 Wände besser, Boden heller
 anderer Spiegel
+
+
+--------
+DONE:
+Punkte anzeigen
+- hud oder wand
