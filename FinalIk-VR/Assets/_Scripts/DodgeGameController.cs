@@ -10,8 +10,6 @@ public class DodgeGameController : MonoBehaviour
     public int score = 0;
     public Text pointsText;
     public TextMeshPro pointsTextWorld;
-    public SphereCollider playerCollider;
-    public BoxCollider hazardCollider;
     public bool gameIsStarted = false;
     public GameObject hazard;
     private GameObject[] hazardInstances;
@@ -23,19 +21,31 @@ public class DodgeGameController : MonoBehaviour
     public int hazardCount = 0;
     public int maxHazardCount = 5;
     private int hazardsMoving = 0;
-
     public float hazardInterval = 3f;
     public float hazardSpeed = 2f;
-
     private int hazardsFinishedMoving = 0;
+
+    public GameObject collectible;
+    private GameObject[] collectiblesInstances;
+    public int collectiblesCount = 0;
+    public int maxCollectiblesCount = 5;
+    private int collectiblesMoving = 0;
+    public float collectiblesInterval = 3f;
+    public float collectiblesSpeed = 2f;
+    private int collectiblesFinishedMoving = 0;
+    private Vector3[] collectibleTargets;
+
 
     void Start()
     {
         pointsText.text = "Punkte: " + score;
         pointsTextWorld.text = "Punkte: " + score;
         hazardInstances = new GameObject[maxHazardCount];
+        collectiblesInstances = new GameObject[maxCollectiblesCount];
         targets = new Vector3[maxHazardCount];
+        collectibleTargets = new Vector3[maxCollectiblesCount];
         createHazards();
+        createCollectibles();
     }
 
     void Update()
@@ -45,6 +55,7 @@ public class DodgeGameController : MonoBehaviour
             pointsText.text = "Punkte: " + score;
             pointsTextWorld.text = "Punkte: " + score;
             moveHazards();
+            moveCollectibles();
         }
     }
 
@@ -60,17 +71,21 @@ public class DodgeGameController : MonoBehaviour
     {
         string directionString = "";
 
-        if(0 < direction && direction <= 33)
+        if(0 < direction && direction <= 0)
         {
             directionString = "left";
         }
-        else if (34 < direction && direction <= 66)
+        else if (34 < direction && direction <= 0)
         {
             directionString = "right";
         }
-        else if (66 < direction && direction <= 100)
+        else if (66 < direction && direction <= 0)
         {
             directionString = "back";
+        }
+        else if (0 < direction && direction <= 100)
+        {
+            directionString = "front";
         }
 
         Vector3 position = new Vector3(0, 0, 0);
@@ -102,6 +117,13 @@ public class DodgeGameController : MonoBehaviour
                 position.x += deviationSideways;
                 target.x += deviationSideways;
                 break;
+            case "front":
+                position = spawnPointFront.position;
+                scale = new Vector3(Random.Range(1, 3), 1, 1);
+                target = spawnPointBack.position;
+                position.x += deviationSideways;
+                target.x += deviationSideways;
+                break;
         }
 
         //floating overhead
@@ -110,7 +132,7 @@ public class DodgeGameController : MonoBehaviour
         {
             position.y += 2;
             target.y += 2;
-            scale = new Vector3(Random.Range(1, 4), 1, Random.Range(1, 4));
+            scale = new Vector3(Random.Range(2, 5), 1, Random.Range(1, 4));
         }
 
         hazardInstances[hazardCount] = Instantiate(hazard, position, Quaternion.identity);
@@ -141,7 +163,7 @@ public class DodgeGameController : MonoBehaviour
         }
     }
 
-    private void moveHazard()
+    private void moveHazardInvoke()
     {
         hazardsMoving++;
         Debug.Log(hazardsMoving);
@@ -151,10 +173,67 @@ public class DodgeGameController : MonoBehaviour
         }
     }
 
+    private void createCollectibles()
+    {
+        for (int i = 0; i < maxCollectiblesCount; i++)
+        {
+            Vector3 position = new Vector3(0, 0, 0);
+            Vector3 scale = new Vector3(0, 0, 0);
+            Vector3 target = new Vector3(0, 0, 0);
+
+            int deviationSideways = Random.Range(-2, 2);
+            int deviationUpwards = Random.Range(1, 3);
+
+            position = spawnPointFront.position;
+            scale = new Vector3(0.5f, 0.5f, 0.5f);
+            target = spawnPointBack.position;
+            position.x += deviationSideways;
+            target.x += deviationSideways;
+            position.y += deviationUpwards;
+            target.y += deviationUpwards;
+
+            collectiblesInstances[collectiblesCount] = Instantiate(collectible, position, Quaternion.identity);
+            collectiblesInstances[collectiblesCount].transform.localScale = scale;
+            collectibleTargets[collectiblesCount] = target;
+            collectiblesCount++;
+        }
+    }
+
+    private void moveCollectibles()
+    {
+        float step = collectiblesSpeed * Time.deltaTime;
+
+        for (int i = collectiblesFinishedMoving; i < collectiblesMoving; i++)
+        {
+            if (i < collectiblesInstances.Length && collectiblesInstances[i] != null)
+            {
+                collectiblesInstances[i].transform.position = Vector3.MoveTowards(collectiblesInstances[i].transform.position, collectibleTargets[i], step);
+                if (collectiblesInstances[i].transform.position == collectibleTargets[i])
+                {
+                    if (collectiblesInstances[i].active)
+                    {
+                        collectiblesInstances[i].SetActive(false);
+                    }
+                    collectiblesFinishedMoving++;
+                }
+            }
+        }
+    }
+
+    private void moveCollectiblesInvoke()
+    {
+        collectiblesMoving++;
+        if (collectiblesMoving > maxCollectiblesCount)
+        {
+            CancelInvoke();
+        }
+    }
+
     public void startGame()
     {
         CancelInvoke();
-        InvokeRepeating("moveHazard", 1, hazardInterval);
+        InvokeRepeating("moveHazardInvoke", 2, hazardInterval);
+        InvokeRepeating("moveCollectiblesInvoke", 2, collectiblesInterval);
         gameIsStarted = true;
     }
 

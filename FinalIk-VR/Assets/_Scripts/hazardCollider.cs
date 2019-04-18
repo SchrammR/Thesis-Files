@@ -23,5 +23,10 @@ public class hazardCollider : MonoBehaviour
             gameController.subtractPointsFromScore(1);
             otherCollider.gameObject.SetActive(false);
         }
+        if (otherCollider.gameObject.CompareTag("Collectible"))
+        {
+            gameController.addPointsToScore(2);
+            otherCollider.gameObject.SetActive(false);
+        }
     }
 }

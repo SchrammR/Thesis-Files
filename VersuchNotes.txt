@@ -2,7 +2,6 @@ richtiger Spiegel
 
 geschwindigkeit war in ordnung
 
-hazards auch von vorne
 
 häufigkeit und richtung justieren
 
@@ -29,3 +28,8 @@ hazards verschwinden beim treffen
 geben punkte wenn aus dem raum
 
 Wände besser, Boden heller
+
+hazards auch von vorne
+#sind jetzt nur von vorne
+
+collectibels hinzugefügt
