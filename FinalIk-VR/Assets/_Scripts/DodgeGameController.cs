@@ -155,7 +155,7 @@ public class DodgeGameController : MonoBehaviour
                     if (hazardInstances[i].active)
                     {
                         hazardInstances[i].SetActive(false);
-                        addPointsToScore(1);
+                        //addPointsToScore(1);
                     }
                     hazardsFinishedMoving++;
                 }
