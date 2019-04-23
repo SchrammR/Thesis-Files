@@ -8,7 +8,6 @@ using TMPro;
 public class DodgeGameController : MonoBehaviour
 {
     public int score = 0;
-    public Text pointsText;
     public TextMeshPro pointsTextWorld;
     public bool gameIsStarted = false;
     public GameObject hazard;
@@ -38,7 +37,6 @@ public class DodgeGameController : MonoBehaviour
 
     void Start()
     {
-        pointsText.text = "Punkte: " + score;
         pointsTextWorld.text = "Punkte: " + score;
         hazardInstances = new GameObject[maxHazardCount];
         collectiblesInstances = new GameObject[maxCollectiblesCount];
@@ -52,7 +50,6 @@ public class DodgeGameController : MonoBehaviour
     {
         if(gameIsStarted)
         {
-            pointsText.text = "Punkte: " + score;
             pointsTextWorld.text = "Punkte: " + score;
             moveHazards();
             moveCollectibles();

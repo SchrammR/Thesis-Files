@@ -5,7 +5,7 @@
       "app_key": "application.generated.unity.finaliktest.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "D:\\iVR-HUD\\git\\Thesis-Files\\FinalIk-VR\\actions.json",
+      "action_manifest_path": "C:\\Users\\VR Lab\\Documents\\RobinSchrammIKVR\\Thesis-Files\\FinalIk-VR\\actions.json",
       "strings": {
         "en_us": {
           "name": "FinalIk-Test [Testing]"
