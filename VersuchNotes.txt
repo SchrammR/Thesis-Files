@@ -1,35 +1,68 @@
-richtiger Spiegel
+Zur Person:
+- Beruf? Student / Prof / ...
+- Alter
+- Geschlecht
+- Erfahrung mit VR? noch nie / wenige male / öfter / regelmäßig / damit gearbeitet / damit geforscht?
+
+Embodiment:
+1. Body ownership.
+Q1. “I felt as if the virtual body was my body ”
+Q2. “It felt as if the virtual body I saw was someone else”
+Q3. “It seemed as if I might have more than one body ”
+Q4. “I felt as if the virtual body I saw when looking in the mirror was my own body ”
+Q5. “I felt as if the virtual body I saw when looking at myself in the mirror was another person”
+
+	2. Agency and Motor Control !!!
+	Q6. “It felt like I could control the virtual body as if it was my own body ”
+	Q7. “The movements of the virtual body were caused by my movements”
+	Q8. “I felt as if the movements of the virtual body were influencing my own movements”
+	Q9. “I felt as if the virtual body was moving by itself”
+
+	4. Location of the body.
+	Q14. “I felt as if my body was located where I saw the virtual body ”
+	Q15. “I felt out ofmy body”
 
 
 
-fliegende in anderer Farbe? nope
+--------------
+
+embodiment komplett + score ausrechnen
+
+Workload:
+- performance	! wie denkt man hat man abgeschnitten? im vergleich?
+- frustration  ! war es frustrierend oder spaßig?
+Nasa TLX oder Stress scale
 
 
---------
-DONE:
-Punkte anzeigen
-- hud oder wand
+demographisch vorher
+rest nach dem experiment
 
 
-Raum gr��er um gefahren fr�her zu erkennen
+trainingseinheit / probedurchlauf  ca. 5 minuten -- durchscnittswerte wie lang man braucht?
+einmal spielen
 
-Weniger zum Ducken, mehr zum laufen
+pilotstudie mit wenig erfahrener person
 
-hazards verschwinden beim treffen
-geben punkte wenn aus dem raum
+distanz messen
 
-W�nde besser, Boden heller
 
-hazards auch von vorne
-#sind jetzt nur von vorne
+between: entweder tracker oder ohne
 
-collectibels hinzugef�gt
 
-h�ufigkeit und richtung justieren
+offene fragen am ende / kommentar
+als feld oder persönlich fragen
 
-geschwindigkeit war in ordnung
+google forms für fragebögen
+nummer zuweisen
+zwei fragebögen in google
+einer am anfang anderer am ende
+z.B. ungerade sind mit tracker
 
-Start Game Text auf rechteck
 
-Generell bunter machen? -collectibles
+nicht sagen was getestet wird oder alles drumherum
+
+vorher einfügen um was es geht
+vr, ausweichen, was wird passieren
+kasten zustimmen
+screenshot in anleitung
 
