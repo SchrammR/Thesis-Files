@@ -60,6 +60,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\_WorkingMirror\Stuff\HTC.UnityPlugin\StereoRendering\Scripts\Editor\StereoRendererEditor.cs" />
+    <Compile Include="Assets\_WorkingMirror\Stuff\HTC.UnityPlugin\StereoRendering\Scripts\Editor\SupportedSDKSymbolEditor.cs" />
     <Compile Include="Assets\RootMotion\Editor\FinalIK\_DEMOS\BendGoalInspector.cs" />
     <Compile Include="Assets\RootMotion\Editor\FinalIK\AimIKInspector.cs" />
     <Compile Include="Assets\RootMotion\Editor\FinalIK\AimPoserInspector.cs" />
