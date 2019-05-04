@@ -8,21 +8,36 @@ Embodiment:
 1. Body ownership.
 Q1. “I felt as if the virtual body was my body ”
 Q2. “It felt as if the virtual body I saw was someone else”
-Q3. “It seemed as if I might have more than one body ”
+Q3. “It seemed as if I might have more than one body”
 Q4. “I felt as if the virtual body I saw when looking in the mirror was my own body ”
 Q5. “I felt as if the virtual body I saw when looking at myself in the mirror was another person”
 
-	2. Agency and Motor Control !!!
-	Q6. “It felt like I could control the virtual body as if it was my own body ”
-	Q7. “The movements of the virtual body were caused by my movements”
-	Q8. “I felt as if the movements of the virtual body were influencing my own movements”
-	Q9. “I felt as if the virtual body was moving by itself”
+2. Agency and Motor Control !!!
+Q6. “It felt like I could control the virtual body as if it was my own body ”
+Q7. “The movements of the virtual body were caused by my movements”
+Q8. “I felt as if the movements of the virtual body were influencing my own movements”
+Q9. “I felt as if the virtual body was moving by itself”
 
-	4. Location of the body.
-	Q14. “I felt as if my body was located where I saw the virtual body ”
-	Q15. “I felt out ofmy body”
+3. Tactile sensations.
+Q10. “It seemed as if I felt the touch of the body in the location where I saw the virtual body touched”
+Q11. “It seemed as if the touch I felt was located somewhere between my physical body and the virtual body ”
+Q12. “It seemed as if the touch I felt was caused by the body touching the virtual body ”
+Q13. “It seemed as ifmy body  was touching the body ” 
 
+4. Location of the body.
 
+Q14. “I felt as if my body was located where I saw the virtual body ”
+Q15. “I felt out ofmy body” - If the virtual body is not collocated with the participants’ body:
+Q16. “I felt as if my (real) body were drifting toward the virtual body or as if the virtual body were drifting toward my (real) body ”
+
+Q17. “It felt as if my (real) body were turning into an ‘avatar’ body ”
+Q18. “At some point it felt as ifmy real body was starting to take on the posture or shape of the virtual body that I saw”
+Q19. “At some point it felt that the virtual body resembled my own (real) body , in terms ofshape, skin tone or other visual features.”
+Q20. “I felt like I was wearing different clothes from when I came to the laboratory”
+
+Q21. “I felt that my own body could be affected by body ” Q22. “I felt a body sensation in my body when I saw body ” Q23. “When body  happened, I felt the instinct to body ”
+Q24. “I felt as ifmy body had body ” - If there is a threat to the body:
+Q25. “I had the feeling that I might be harmed by the body ”
 
 --------------
 
