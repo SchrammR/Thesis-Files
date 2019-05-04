@@ -8,8 +8,16 @@ using TMPro;
 public class DodgeGameController : MonoBehaviour
 {
     public int score = 0;
+    public int plusPoints = 0;
+    public int minusPoints = 0;
     public TextMeshPro pointsTextWorld;
+    public TextMeshPro plusPointsWorld;
+    public TextMeshPro minusPointsWorld;
+    public TextMeshPro endText;
+
     public bool gameIsStarted = false;
+    public bool gameEnded = false;
+
     public GameObject hazard;
     private GameObject[] hazardInstances;
     private Vector3[] targets ;
@@ -38,6 +46,11 @@ public class DodgeGameController : MonoBehaviour
     void Start()
     {
         pointsTextWorld.text = "Punkte: " + score;
+        plusPointsWorld.gameObject.SetActive(false);
+        minusPointsWorld.gameObject.SetActive(false);
+        endText.gameObject.SetActive(false);
+
+
         hazardInstances = new GameObject[maxHazardCount];
         collectiblesInstances = new GameObject[maxCollectiblesCount];
         targets = new Vector3[maxHazardCount];
@@ -51,8 +64,20 @@ public class DodgeGameController : MonoBehaviour
         if(gameIsStarted)
         {
             pointsTextWorld.text = "Punkte: " + score;
+            plusPointsWorld.text = "Pluspunkte: " + plusPoints;
+            minusPointsWorld.text = "Minuspunkte: " + minusPoints;
             moveHazards();
             moveCollectibles();
+        }
+        if(maxHazardCount == hazardsFinishedMoving)
+        {
+            gameEnded = true;
+        }
+        if (gameEnded)
+        {
+            plusPointsWorld.gameObject.SetActive(true);
+            minusPointsWorld.gameObject.SetActive(true);
+            endText.gameObject.SetActive(true);
         }
     }
 
@@ -236,10 +261,12 @@ public class DodgeGameController : MonoBehaviour
 
     public void addPointsToScore(int points){
         this.score += points;
+        this.plusPoints += points;
     }
 
     public void subtractPointsFromScore(int points){
         this.score -= points;
+        this.minusPoints -= points;
     }
 
 

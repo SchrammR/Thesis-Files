@@ -9,8 +9,13 @@ public class TestCalb : MonoBehaviour
 
     public Transform Avatar;
 
-    private float heightEyeOne = 1.96f;
-    
+    private float heightEyeOne;
+
+    private void Start()
+    {
+        heightEyeOne = FaceTarget.position.y;
+    }
+
     // Update is called once per frame
     void Update()
     {
