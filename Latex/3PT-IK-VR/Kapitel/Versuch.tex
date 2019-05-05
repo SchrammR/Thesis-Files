@@ -1,29 +1,39 @@
+\chapter{Forschungsfrage}
+
 \chapter{Versuch}
-Ich habe einen Versuch an X Personen durchgeführt in dem sie Dingen ausweichen mussten. Ihre Performanz wird dabei in Pukten gemessen.
+In dem Versuch soll getestet werden, ob der Nutzen von Trackern die Performanz und das Embodiment eines Nutzers gegenüber einer Inverse-Kinematik Lösung für selbst Avatare erhöht. Es wurden zwei Gruppen getestet, die miteinander verglichen werden. Eine Gruppe durchläuft das Experiment mit einem durch IK animierten Avatar. Der Avatar der anderen Gruppe wird mithilfe von sechs zusätzlichen Trackern durch die Bewegungen der Testperson animiert.
+
+\section{Technisches Setup / Versuchsaufbau}
+Das Experiment wurde im VR-Lab der Informatik Fakultät in der Hochschule Reutlingen durchgeführt. 
+
+
+
+
+\section{Hardware}
+Der Grundaufbau des Experiments ist bei beiden Versuchsgruppen genau gleich.
+Bei dem Versuch kommt die HTC Vive als HMD zum Einsatz [Modell] [Bild]. Das Headset dient dem Avatar als Ankerpunkt für die ingame Kamera. Diese ist ein wenig unter den Augen des Avatars gelegen, da so die Animation durch IK besser funktionierte.
+Die Vive benötigt zwei höher gelegene Kameras, welche in dem Raum an einem Gerüst festgemacht sind. Mithilfe eines Tablets und der Osram? Software können die Kameras aus der Entfernung ein und ausgeschaltet werden. Die Kameras sind für das Tracking im Raum zuständig und decken in meinem Fall ungefähr drei Meter mal fünf Meter ab. Dieses Gebiet wird in SteamVR kalibriert und dient im Spiel als begehbares Gebiet für den Spieler. [[Computer auf dem das Game läuft]].
+Dazu kommen zwei VIVE-Controller, deren Position ebenfalls von den Kameras erfasst werden. In jeder Hand wird ein Controller gehalten, daher steuert die Position der Controller die Position der Hände in der Anwendung. 
+-das war setup 1-
+Bei Versuchsgruppe zwei werden zusätzlich zu dem oben genannten sechs(weil 6 verfügbar) VIVE Tracker verwendet [[Bild]]. Die Konfiguration, wo die sechs Tracker angebracht werden können variiert stark. Theoretisch gesehen können die Tracker an jeglichem Objekt oder überall am Körper festgemacht werden. Das verwendete Avatarrig von VRIK besteht aus [[ca. 30]] verschiedenen Knochen ausgenommen der Finger und Zehenknochen. Standardmäßig vorgesehene Targets für Tracker gibt es in VRIK 10. Da die HMD und die Controller bereits drei davon abdecken, konnten die möglichen Tracking Ziele auf sieben begrentzt werden. Da alle konfigurationen, die einen Tracker an der Hüfte beinhaltetetn, Probleme verursachten, konnte die optimale konfiguration für sechs Tracker festgelegt werden. [[vllt. ne quelle wo sagt dass 6 tracker gut sind]]. Die durch Gruppe zwei getrackten Körperteile sind also der Kopf durch die HMD, die Hände durch die Controller sowie jeweils beide Ellbogen, Knie und Füße mithilfe der Tracker. 
+Die Tracker werden mithilfe von 1/4 Zoll Kamersastativschrauben an beidseitigen Klettbändern befestigt, welche leicht am Körper angebracht werden können. Da neben der Position auch die Rotation der Tracker relevant ist, wurden die Tracker in den Versuchen immer mit der Seite des Lichtpunkts nach unten gedreht. [[Bild von Trackerrig]]
+Trotz der Tracker kommt bei Gruppe zwei IK zum Einsatz, da Knochen des Rigs wie die Hüfte, die Wirbelsäule oder die Schultern nicht getrackt werden und sich so natürlicher bewegt.
+
+[Bild von Labor] [Bild von jemanden mit Trackern]
+
+\section{Software / Implementation}
+Wie genau funktioniert das Game?
+[Bild vom Game]
+Der Spieler/Proband befindet sich in einem quadratischem Raum ohne Decke. Die komplette Wand vor dem Spieler besteht aus einem virtuellen Spiegel. Die Fläche des Raumes ist ungefähr doppelt so groß als das begehbare Gebiet des Spielers. SteamVR zeigt automatisch ein rotes Netz dort an, wo das begehbare Gebiet aufhört, damit der Spieler nicht gegen Sachen außerhalb seiner freien Fläche stößt. Zusätzlich erstellte ich zusätzlich gelbe Indikatoren für das Gebiet auf dem Boden, da das Netz von SteamVR nicht in dem Spiegel angezeigt wird.
+Über einem wird im HUD die Punktezahl angezeigt. Wenn man Hazard berührt werden Punkte angezeigt.
 
 \section{Hypothese}
 Meine Hypothese ist, dass die höhere Immersion durch exaktere Bewegungen des Avatars erhöht wird. Ich denke dass diese höhere Immersion dabei hilft die Aufgabe besser zu absolvieren.
 Worauf ist diese Hypothese basiert?
 
-\section{Versuchsdesign}
-Bei dem Versuch kommt die HTC Vive als HMD zum Einsatz [Modell] [Bild]. Dazu kommen zwei Controller, die Kameras an dem Rig im Raum. Dazu kommen 6 Vive Tracker. Jeweils einer an jedem Fuß, Knie und Ellbogen.
-Jeder der Probanden absolviert den Task 2 mal, einmal mit aktivierten Trackern und einmal ohne. Ob sie immer am Körper sind überleg ich noch.
-Warum diese Anzahl?
-Die Controller und HMD tracken immer. Daraus ergibt sich zum ersten 3-Punktetracking.
-Wenn die 6 zusätzlichen Tracker dazukommen, tracken wir an insgesamt 9 Punkten, also alles was der Avatar hergibt.
-Die Vive ermöglicht das Bewegen innerhalb eines Definierten bereichs (den Kameras)
 
-[Bild von Labor] [Bild von jemanden mit Trackern]
-
-\subsection{Eingesetzte Hardware}
-Vive und so weiter
  
-\subsection{Das Avatarrig}
-Der Avatar besteht aus 9 IK Punkten. Füße, Knie, Hände, Ellenbogen und der Kopf.
-Punkte die nicht getrackt werden, sind durch Inverse Kinematics (IK) animiert. Dabei kommt das Tool FinalIK zum Einsatz (Warum?)
-SteamVR und so
- 
- \subsection{Aufgabe}
+\section{Aufgabe}
  Punkte
  Was für Hazards
  Wie bewegen sie sich
@@ -36,9 +46,3 @@ SteamVR und so
 - Wer hat schonmal Immersives VR benutzt
 - Wer hat Videospiel erfahrung
 
-\section{Durchführung}
-Wie genau funktioniert das Game?
-[Bild vom Game]
-Der Spieler/Proband befindet sich in einem geschlossenen Raum, der etwas größer als das begehbare Gebiet ist. Das Begehbare gebiet ist auf dem Boden mit Roter Linie gegeben.
-Vor dem Spieler befindet sich ein Spiegel ungefähr der Größe der Wand.
-Über einem wird im HUD die Punktezahl angezeigt. Wenn man Hazard berührt werden Punkte angezeigt.
