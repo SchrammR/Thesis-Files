@@ -188,7 +188,6 @@ public class DodgeGameController : MonoBehaviour
     private void moveHazardInvoke()
     {
         hazardsMoving++;
-        Debug.Log(hazardsMoving);
         if(hazardsMoving > maxHazardCount)
         {
             CancelInvoke();
