@@ -1,0 +1,8 @@
+Linker Ellbogen: LHR-15B8F841		5
+Rechter Ellbogen: LHR-05BCCE53		6
+
+Linkes Knie: LHR-1BBEFA90			7
+Rechtes Knie: LHR-05BE38EF			8
+
+Linker Fuß: LHR-05BD178A			9
+Rechter Fuß: LHR-09B913AD			10
