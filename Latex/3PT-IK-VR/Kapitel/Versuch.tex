@@ -1,10 +1,7 @@
 \chapter{Versuch}
 In dem Versuch soll getestet werden, ob der Nutzen von Trackern die Performanz und das Embodiment eines Nutzers gegenüber einer Inverse-Kinematik Lösung für selbst Avatare erhöht. Es wurden zwei Gruppen getestet, die miteinander verglichen werden. Eine Gruppe durchläuft das Experiment mit einem durch IK animierten Avatar. Der Avatar der anderen Gruppe wird mithilfe von sechs zusätzlichen Trackern durch die Bewegungen der Testperson animiert.
 
-\section{Technisches Setup / Versuchsaufbau}
-Das Experiment wurde im VR-Lab der Informatik Fakultät in der Hochschule Reutlingen durchgeführt. 
-
-\section{Plan}
+\section{Konzeption}
 Komplett keinen Sound
 keine Texturen
 spiegel
@@ -23,7 +20,7 @@ Trotz der Tracker kommt bei Gruppe zwei IK zum Einsatz, da Knochen des Rigs wie 
 
 [Bild von Labor] [Bild von jemanden mit Trackern]
 
-\section{Aufbau Game?}
+\section{Software / Anwendung}
 Wie genau funktioniert das Game?
 [Bild vom Game]
 Der Spieler/Proband befindet sich in einem quadratischem Raum ohne Decke. Die komplette Wand vor dem Spieler besteht aus einem virtuellen Spiegel. Die Fläche des Raumes ist ungefähr doppelt so groß als das begehbare Gebiet des Spielers. SteamVR zeigt automatisch ein rotes Netz dort an, wo das begehbare Gebiet aufhört, damit der Spieler nicht gegen Sachen außerhalb seiner freien Fläche stößt. Zusätzlich erstellte ich zusätzlich gelbe Indikatoren für das Gebiet auf dem Boden, da das Netz von SteamVR nicht in dem Spiegel angezeigt wird. Auf dem Spiegel befindet sich eine Punkteanzeige.
@@ -31,21 +28,9 @@ Wenn die Anwendung gestartet wird, befinden sich vor dem Spieler ein Tutorial un
 Das Startfeld muss berührt werden damit der Durchlauf des Spiels beginnt. Die komplette Anwendung verzichtet auf Tasteneingaben des Benutzers, alle benötigten Eingaben passieren durch Berührung des Avatars mit den Objekten.
 Sobald das Spiel gestartet wurde, bewegen sich von vorne aus dem Spiegel die Hazards und Collectibles in einem bestimmten Intervall und bewegen sich durch das begehbare Gebiet bis sie wieder aus der Rückwand verschwinden. Die Position der einzelnen Objekte wird vor dem Spiel zufällig innerhalb einer Range festgelegt. Zusätzlich können alle Objekte mit einer Wahrscheinlichkeit von ?prozenz statt auf dem Boden in der Luft schwebend erscheinen. Dies regt den Spieler an, sich in gewissen Situationen zu ducken um einem Hazard auszuweichen oder seine Hände zu bewegen um ein Collectible, welche über einem Hazard schwebt, einzusammeln. Während der gesamten Zeit wird dem Spieler seine Punktzahl angezeigt [[warum?]] Nachdem 40? Hazards und 20? Collectibles erschienen sind, ist das Spiel vorbei. Neben der gesamten Punktzahl werden dann die jeweils getroffenen Hazards und Collectibles angezeigt. 
 
-
-\section{Implementation}
 Die Anwendung wurde mithilfe von Unity 2018.3.11f erstellt. Unity ist eine Engine um Computerspiele zu entwickeln. Unity bietet über den \textit{Assetstore} die Möglichkeit, Programme von Drittanbietern leicht in die eigene Anwendung zu integrieren. Die wichtigsten Assets für die Anwendung waren \textit{FinalIK} von rootmotion\cite{rootmotion} sowie SteamVR von Valve?. FinalIK bietet vorgefertigte IK-Lösungen für eine Reihe an Anwendungsarten. Das im Experiment benutzte IK-Rig stammt von dem FinalIK Anwendungsbeispiel VRIK. [[bild von VRIK]]. Abbildung X zeigt die Standardkonfiguation der Knochen von VRIK. SteamVR bietet standardfunktionalitäten für die HTC VIVE wie das Kamerarig und die Position der Controller. Die Positionen der getrackten Objekte werden dann den Knochen Punkten zugesieen
 
+\section{Probleme}
+
+
  
-\section{Aufgabe}
- Punkte
- Was für Hazards
- Wie bewegen sie sich
-
-\section{Probanden}
-- Anzahl
-- Unbezahlt
-- Geschlecht
-- Durchschn. Alter
-- Wer hat schonmal Immersives VR benutzt
-- Wer hat Videospiel erfahrung
-
