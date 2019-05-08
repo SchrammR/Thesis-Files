@@ -22,10 +22,29 @@ Eric~D. Ragan, Ajith Sowndararajan, Regis Kopper, and Douga Bowman.
 \newblock {\em Presence: Teleoperators and Virtual Environments},
   19(6):527--543, 2010.
 
+\bibitem{Tham2018}
+Jason Tham, Ann~Hill Duin, Laura Gee, Nathan Ernst, Bilal Abdelqader, and Megan
+  McGrath.
+\newblock {Understanding Virtual Reality: Presence, Embodiment, and
+  Professional Practice}.
+\newblock {\em IEEE Transactions on Professional Communication},
+  61(2):178--195, 2018.
+
 \bibitem{Benford2010}
 Steve Benford, John Bowers, Lennart~E. Fahl{\'{e}}n, Chris Greenhalgh, and Dave
   Snowdon.
 \newblock {User embodiment in collaborative virtual environments}.
 \newblock pages 242--249, 2010.
+
+\bibitem{Kilteni2012}
+Mel~Slater {Konstantina Kilteni, Raphaela Groten}.
+\newblock {The Sense of Embodiment in Virtual Reality}.
+\newblock {\em Presence: Teleoperators and Virtual Environments},
+  21(4):373--387, 2012.
+
+\bibitem{rootmotion}
+{rootmotion}.
+\newblock Rootmotion - vrik, 2019.
+\newblock [Online; accessed 5-May-2019].
 
 \end{thebibliography}
