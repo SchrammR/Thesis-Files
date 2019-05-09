@@ -1,9 +1,4 @@
-\begin{thebibliography}{1}
-
-\bibitem{Dummer2009}
-Timothy Dummer, Alexandra Picot-Annand, Tristan Neal, and Chris Moore.
-\newblock {Movement and the rubber hand illusion}.
-\newblock {\em Perception}, 38(2):271--280, 2009.
+\begin{thebibliography}{10}
 
 \bibitem{Boas2012}
 Yuri Antonio Gon{\c{c}}alves~Vilas Boas.
@@ -22,10 +17,59 @@ Eric~D. Ragan, Ajith Sowndararajan, Regis Kopper, and Douga Bowman.
 \newblock {\em Presence: Teleoperators and Virtual Environments},
   19(6):527--543, 2010.
 
+\bibitem{Slater2003}
+Mel Slater.
+\newblock {A note on presence}.
+\newblock {\em Presence Connect}, 3(January):1--5, 2003.
+
+\bibitem{Slater1999}
+Mel Slater.
+\newblock {Measuring Presence: A Response to the Witmer and Singer Presence
+  Questionnaire}.
+\newblock {\em Presence: Teleoperators and Virtual Environments},
+  8(5):560--565, 2002.
+
+\bibitem{Bowman2007}
+Doug~A. Bowman and Ryan~P. McMahan.
+\newblock {Virtual reality: How much immersion is enough?}
+\newblock {\em Computer}, 40(7):36--43, 2007.
+
 \bibitem{Benford2010}
 Steve Benford, John Bowers, Lennart~E. Fahl{\'{e}}n, Chris Greenhalgh, and Dave
   Snowdon.
 \newblock {User embodiment in collaborative virtual environments}.
 \newblock pages 242--249, 2010.
+
+\bibitem{Tham2018}
+Jason Tham, Ann~Hill Duin, Laura Gee, Nathan Ernst, Bilal Abdelqader, and Megan
+  McGrath.
+\newblock {Understanding Virtual Reality: Presence, Embodiment, and
+  Professional Practice}.
+\newblock {\em IEEE Transactions on Professional Communication},
+  61(2):178--195, 2018.
+
+\bibitem{Kilteni2012}
+Konstantina Kilteni, Raphaela Groten, and Mel Slater.
+\newblock {The Sense Of Embodiment in VR}.
+\newblock {\em Presence: Teleoperators {\&} Virtual Environments},
+  21(4):373--387, 2012.
+
+\bibitem{rootmotion}
+{rootmotion}.
+\newblock Rootmotion - vrik, 2019.
+\newblock [Online; accessed 5-May-2019].
+
+\bibitem{Gonzalez-Franco2018}
+Mar Gonzalez-Franco and Tabitha~C. Peck.
+\newblock {Avatar Embodiment. Towards a Standardized Questionnaire}.
+\newblock {\em Frontiers in Robotics and AI}, 5(June):1--9, 2018.
+
+\bibitem{HART1988}
+Sandra~G. Hart and Lowell~E. Staveland.
+\newblock Development of nasa-tlx (task load index): Results of empirical and
+  theoretical research.
+\newblock In Peter~A. Hancock and Najmedin Meshkati, editors, {\em Human Mental
+  Workload}, volume~52 of {\em Advances in Psychology}, pages 139 -- 183.
+  North-Holland, 1988.
 
 \end{thebibliography}

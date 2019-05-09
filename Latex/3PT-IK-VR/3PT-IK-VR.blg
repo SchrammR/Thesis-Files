@@ -5,10 +5,16 @@ A level-1 auxiliary file: Kapitel/Abstract.aux
 A level-1 auxiliary file: Kapitel/Inhalt.aux
 A level-1 auxiliary file: Kapitel/BildVerzeichnis.aux
 A level-1 auxiliary file: Kapitel/Einfuehrung.aux
+A level-1 auxiliary file: Kapitel/StandDerTechnik.aux
 A level-1 auxiliary file: Kapitel/Versuch.aux
 A level-1 auxiliary file: Kapitel/Evaluation.aux
+A level-1 auxiliary file: Kapitel/Fazit.aux
 A level-1 auxiliary file: Kapitel/Quellenverzeichnis.aux
 Database file #1: Kapitel/Literatur.bib
+Repeated entry---line 124 of file Kapitel/Literatur.bib
+ : @article{Holloway1995
+ :                      ,
+I'm skipping whatever remains of this entry
 Warning--empty booktitle in Boas2012
 Warning--empty journal in Benford2010
-(There were 2 warnings)
+(There was 1 error message)
