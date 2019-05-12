@@ -1,4 +1,6 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: 3PT-IK-VR.aux
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: 3PT-IK-VR.aux
 The style file: unsrt.bst
 A level-1 auxiliary file: Kapitel/Deckblatt.aux
 A level-1 auxiliary file: Kapitel/Abstract.aux
@@ -17,4 +19,45 @@ Repeated entry---line 124 of file Kapitel/Literatur.bib
 I'm skipping whatever remains of this entry
 Warning--empty booktitle in Boas2012
 Warning--empty journal in Benford2010
+You've used 14 entries,
+            1791 wiz_defined-function locations,
+            559 strings with 6165 characters,
+and the built_in function-call counts, 3420 in all, are:
+= -- 321
+> -- 130
+< -- 3
++ -- 49
+- -- 35
+* -- 242
+:= -- 530
+add.period$ -- 43
+call.type$ -- 14
+change.case$ -- 14
+chr.to.int$ -- 0
+cite$ -- 16
+duplicate$ -- 149
+empty$ -- 337
+format.name$ -- 35
+if$ -- 757
+int.to.chr$ -- 0
+int.to.str$ -- 14
+missing$ -- 13
+newline$ -- 73
+num.names$ -- 16
+pop$ -- 35
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 73
+stack$ -- 0
+substring$ -- 270
+swap$ -- 35
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 40
+width$ -- 16
+write$ -- 154
 (There was 1 error message)
