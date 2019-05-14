@@ -19,7 +19,7 @@
 \contentsline {section}{\numberline {3.2}Hypothese}{12}{section.3.2}
 \contentsline {section}{\numberline {3.3}Hardware}{12}{section.3.3}
 \contentsline {section}{\numberline {3.4}Software / Anwendung}{13}{section.3.4}
-\contentsline {section}{\numberline {3.5}Probleme}{14}{section.3.5}
+\contentsline {section}{\numberline {3.5}Probleme}{15}{section.3.5}
 \contentsline {chapter}{\numberline {4}Evaluation}{16}{chapter.4}
 \contentsline {section}{\numberline {4.1}Frageb\IeC {\"o}gen}{16}{section.4.1}
 \contentsline {section}{\numberline {4.2}Umsetzung}{16}{section.4.2}
@@ -27,4 +27,4 @@
 \contentsline {chapter}{\numberline {5}Fazit}{17}{chapter.5}
 \contentsline {section}{\numberline {5.1}Fazit}{17}{section.5.1}
 \contentsline {section}{\numberline {5.2}Zukunftsaussichten}{17}{section.5.2}
-\contentsline {chapter}{Literatur}{}{chapter*.5}
+\contentsline {chapter}{Literatur}{}{chapter*.6}

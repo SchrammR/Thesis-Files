@@ -14,13 +14,18 @@ Die Performanz sollte sich im Schnitt ebenfalls erhöhen, da die Tracker mehr Ko
 
 
 \section{Hardware}
-Bei dem Versuch kommt die HTC Vive als HMD zum Einsatz [Modell] [Bild]. Das Headset dient dem Avatar als Ankerpunkt für die ingame Kamera. Diese ist ein wenig unter den Augen des Avatars gelegen, da so die Animation durch IK besser funktionierte.
+Bei dem Versuch kommt die HTC Vive (Abbildung x) als HMD zum Einsatz.
+Das Headset dient dem Avatar als Ankerpunkt für die ingame Kamera. Diese ist ein wenig unter den Augen des Avatars gelegen, da so die Animation durch IK besser funktionierte.
 Die Vive benötigt zwei höher gelegene Kameras, welche in dem Raum an einem Gerüst festgemacht sind. Mithilfe eines Tablets und der App \textit{Osram Lightify} können die Kameras aus der Entfernung ein und ausgeschaltet werden. Die Kameras sind für das Tracking im Raum zuständig und decken in meinem Fall ungefähr drei Meter mal fünf Meter ab. Dieses Gebiet wird in SteamVR kalibriert und dient im Spiel als begehbares Gebiet für den Spieler. [[Computer auf dem das Game läuft]].
 Dazu kommen zwei VIVE-Controller, deren Position ebenfalls von den Kameras erfasst werden. In jeder Hand wird ein Controller gehalten, daher steuert die Position der Controller die Position der Hände in der Anwendung.  Der Aufbau beider Versuchsgruppen ist bis zu diesem Punkt genau gleich.
 Bei Versuchsgruppe zwei werden zusätzlich zu dem oben genannten sechs(weil 6 verfügbar) VIVE Tracker verwendet [[Bild]]. Die Konfiguration, wo die sechs Tracker angebracht werden können, variiert stark. Theoretisch gesehen können die Tracker an jeglichem Objekt oder überall am Körper festgemacht werden. Das verwendete Avatarrig von VRIK besteht aus [[ca. 30]] verschiedenen Knochen ausgenommen der Finger und Zehenknochen. Standardmäßig vorgesehene Targets für Tracker gibt es in VRIK 10. Da die HMD und die Controller bereits drei davon abdecken, konnten die möglichen Tracking Ziele auf sieben begrentzt werden. Da alle konfigurationen, die einen Tracker an der Hüfte beinhaltetetn, Probleme verursachten, konnte die optimale konfiguration für sechs Tracker festgelegt werden. [[vllt. ne quelle wo sagt dass 6 tracker gut sind]]. Die durch Gruppe zwei getrackten Körperteile sind also der Kopf durch die HMD, die Hände durch die Controller sowie jeweils beide Ellbogen, Knie und Füße mithilfe der Tracker. 
 Die Tracker werden mithilfe von 1/4 Zoll Kamersastativschrauben an beidseitigen Klettbändern befestigt, welche leicht am Körper angebracht werden können. Da neben der Position auch die Rotation der Tracker relevant ist, wurden die Tracker in den Versuchen immer mit der Seite des Lichtpunkts nach unten gedreht. [[Bild von Trackerrig]]
 Trotz der Tracker kommt bei Gruppe zwei IK zum Einsatz, da Knochen des Rigs wie die Hüfte, die Wirbelsäule oder die Schultern nicht getrackt werden und sich so natürlicher bewegt.
 
+\begin{figure}[h]
+  \includegraphics[scale=0.15]{Bilder/Brille/VIVEHMD.jpeg}
+  \label{fig:VIVEHMD}
+\end{figure}
 [Bild von Labor] [Bild von jemanden mit Trackern]
 
 \section{Software / Anwendung}
