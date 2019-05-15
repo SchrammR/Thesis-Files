@@ -1,6 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2018)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
-The top-level auxiliary file: 3PT-IK-VR.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: 3PT-IK-VR.aux
 The style file: unsrt.bst
 A level-1 auxiliary file: Kapitel/Deckblatt.aux
 A level-1 auxiliary file: Kapitel/Abstract.aux
@@ -8,61 +6,15 @@ A level-1 auxiliary file: Kapitel/Inhalt.aux
 A level-1 auxiliary file: Kapitel/BildVerzeichnis.aux
 A level-1 auxiliary file: Kapitel/Einfuehrung.aux
 A level-1 auxiliary file: Kapitel/StandDerTechnik.aux
-Case mismatch error between cite keys Pan2017 and pan2017
----line 26 of file Kapitel/StandDerTechnik.aux
- : \citation{Pan2017
- :                  }
-I'm skipping whatever remains of this command
 A level-1 auxiliary file: Kapitel/Versuch.aux
 A level-1 auxiliary file: Kapitel/Evaluation.aux
 A level-1 auxiliary file: Kapitel/Fazit.aux
 A level-1 auxiliary file: Kapitel/Quellenverzeichnis.aux
 Database file #1: Kapitel/Literatur.bib
-Repeated entry---line 124 of file Kapitel/Literatur.bib
+Repeated entry---line 141 of file Kapitel/Literatur.bib
  : @article{Holloway1995
  :                      ,
 I'm skipping whatever remains of this entry
 Warning--empty booktitle in Boas2012
 Warning--empty journal in Benford2010
-You've used 15 entries,
-            1791 wiz_defined-function locations,
-            564 strings with 6400 characters,
-and the built_in function-call counts, 3751 in all, are:
-= -- 357
-> -- 138
-< -- 4
-+ -- 52
-- -- 37
-* -- 258
-:= -- 573
-add.period$ -- 46
-call.type$ -- 15
-change.case$ -- 15
-chr.to.int$ -- 0
-cite$ -- 17
-duplicate$ -- 167
-empty$ -- 366
-format.name$ -- 37
-if$ -- 838
-int.to.chr$ -- 0
-int.to.str$ -- 15
-missing$ -- 14
-newline$ -- 78
-num.names$ -- 17
-pop$ -- 38
-preamble$ -- 1
-purify$ -- 0
-quote$ -- 0
-skip$ -- 89
-stack$ -- 0
-substring$ -- 302
-swap$ -- 45
-text.length$ -- 4
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 0
-warning$ -- 2
-while$ -- 44
-width$ -- 17
-write$ -- 165
-(There were 2 error messages)
+(There was 1 error message)

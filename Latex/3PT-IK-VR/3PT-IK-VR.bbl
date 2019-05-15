@@ -10,6 +10,19 @@ Richard Holloway and A.~Lastra.
 \newblock {Virtual environments: A survey of the technology}.
 \newblock {\em SIGGRAPH'95 Course}, 8(September):1--40, 1995.
 
+\bibitem{Perret2018}
+Jerome Perret and Emmanuel~Vander Poorten.
+\newblock {Review Paper : Commercial Haptic Gloves}.
+\newblock {\em EuroVR}, 2018.
+
+\bibitem{Lamberti2017}
+Fabrizio Lamberti, Federico Manuri, Gianluca Paravati, Giovanni Piumatti, and
+  Andrea Sanna.
+\newblock {Using Semantics to Automatically Generate Speech Interfaces for
+  Wearable Virtual and Augmented Reality Applications}.
+\newblock {\em IEEE Transactions on Human-Machine Systems}, 47(1):152--164,
+  2017.
+
 \bibitem{Ragan2010}
 Eric~D. Ragan, Ajith Sowndararajan, Regis Kopper, and Douga Bowman.
 \newblock {The effects of higher levels of immersion on procedure memorization
@@ -54,18 +67,22 @@ Konstantina Kilteni, Raphaela Groten, and Mel Slater.
 \newblock {\em Presence: Teleoperators {\&} Virtual Environments},
   21(4):373--387, 2012.
 
-\bibitem{pan2017}
-Ye~Pan and Anthony Steed.
-\newblock {The impact of self-avatars on trust and collaboration in shared
-  virtual environments}.
-\newblock {\em PLOS ONE}, 12(12):1--20, 2017.
+\bibitem{Botvinick1998}
+Matthew Botvinick and Jonathan Cohen.
+\newblock {Rubber hand feels touch that eyes see}.
+\newblock {\em Nature}, 391(February):756, 1998.
 
-\bibitem{Schwartz2018}
-Raz Schwartz and William Steptoe.
-\newblock {The Immersive VR Self: Performance, Embodiment and Presence in
-  Immersive Virtual Reality Environments}.
-\newblock {\em A Networked Self and Human Augmentics, Artificial Intelligence,
-  Sentience}, pages 108--116, 2018.
+\bibitem{Slater2008}
+Mel Slater, Daniel Perez-Marcos, H.~Henrik Ehrsson, and Maria~V. Sanchez-Vives.
+\newblock {Towards a digital body: The virtual arm illusion}.
+\newblock {\em Frontiers in Human Neuroscience}, 2(August):1--8, 2008.
+
+\bibitem{Kilteni2013}
+Konstantina Kilteni, Ilias Bergstrom, and Mel Slater.
+\newblock {Drumming in immersive virtual reality: The body shapes the way we
+  play}.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  19(4):597--605, 2013.
 
 \bibitem{Biocca2014}
 Frank Biocca.
@@ -74,6 +91,24 @@ Frank Biocca.
 \newblock {\em Lecture Notes in Computer Science (including subseries Lecture
   Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)}, 8531
   LNCS:421--429, 2014.
+
+\bibitem{Mohler2010}
+B~J Mohler, S~H Creem-Regehr, W~B Thompson, and H~H B{\"{u}}lthoff.
+\newblock {The Effect of Viewing a Self-Avatar on Distance Judgments in an
+  HMD-Based Virtual Environment}.
+\newblock {\em Presence}, 19(3):230--242, jun 2010.
+
+\bibitem{Pan2017}
+Ye~Pan and Anthony Steed.
+\newblock {The impact of self-avatars on trust and collaboration in shared
+  virtual environments}.
+\newblock {\em PLOS ONE}, 12(12):1--20, 2017.
+
+\bibitem{Xia2009}
+ShiHong Xia and ZhaoQi Wang.
+\newblock {Recent advances on virtual human synthesis}.
+\newblock {\em Science in China Series F: Information Sciences},
+  52(5):741--757, may 2009.
 
 \bibitem{rootmotion}
 {rootmotion}.
