@@ -1,51 +1,19 @@
 \chapter{Einleitung}
 
 \section{Einführung / Hinführung zum Thema}
-Das Einst fiktionale VR...
 
-Motivation, Kontext und Gegenstand
-Ziele
-
-Der Anfangsteil enthält in jedem Fall die vielfach bearbeiteten Informationen aus der
-ursprünglichen Aufgabenbeschreibung (TPD.2.5):
-- eine Einführung in das Thema, den Kontext und Gegenstand der Arbeit, einen
-Überblick zum Stand der Wissenschaft und zum Problem,
-- eine genaue, vollständige und verständliche Beschreibung der Aufgabe, die Forschungsfragen und Ziele der Arbeit.
-
-Motivation: Aus welchen sachlichen (nicht persönlichen!) Motiven und Gründen ist es
-sinnvoll und nützlich, dieses Thema zu bearbeiten?
-
-Vorgehensweise: Welche Bearbeitungsmethoden, bei empirischen Arbeiten Beobachtungs- oder Untersuchungsmethoden werden eingesetzt? Welche Lösungsansätze werden verfolgt?
-
-Geschichte: Wie hat sich das Thema, das Fachgebiet entwickelt? Wie ordnet sich die
-Arbeit in den historischen Kontext ein?
-
-------
-In dieser Arbeit geht es um animation von selbstavataren
-Motivation
-was will ich erreichen
-wie will ichs machen
-
-Die Forschung im Feld self-avatar animation im zusammenhang mit embodiment ist noch recht unerforscht
 
 \section{Motivation}
-Die Motivation für diese Arbeit stammt von einem Projekt vom Fraunhofer IAO in Stuttgart. Bei dem Projekt handelt es sich um einee kollaborative VR-Umgebung. Dabei soll jeder Nutzer einen Avatar innerhalb des Virtuellen Raums steuern. 
-Gründe dafür sind [potentiell] (verbesserte Immersion, höheres Embodiment), gesteigerte Kommunikation und erkennen der Position der anderen.
- Vorallem in kollaborativen Umgebungen sind Avatare wichtig, da ohne Avatare der Standort der anderen Nutzer schlecht oder gar nicht identifiziert werden kann. Da das Programm auch potentiell für Meetings eingesetzt werden könnte, ist auch der Kommunikationsaspekt des potentiell verbesserten Embodinments relevant. Dazu später mehr.
-Die Animation der Avatare funktioniert aktuell über IK mit dreipunkte-tracing durch die Controller an den Händen und der HMD am Kopf. Das ist zwar mit wenig Aufwand für den Nutzer Verbunden, da diese Konfiguration an Hardware heutzutage der Standard in high fidelity HMDs ist[zitat], jedoch sind die daraus schließenden Animationen noch ungenau. Da sich die getrackten Objekte alle in der Region überhalb der Hüfte befinden, müssen ein Teil der Wirbelsäule, die Hüfte und die Beine Komplett anhand der Punkte oberhalb davon animiert werden. Das führt oft zu Körpern, die bei Bewegungen dem Kopf hinterher schweben.
-Eine Alternative / zusatz wären Tracker, womit die genauigkeit der Avataranimationen verbessert werden kann. Dafür führen Tracker zu erhötem Entwicklungsaufwand, da sie anders als bei full body trackinganzügen zusätzlich zu anderen Technologien wie IK eingesetzt werden müssen. Zusätzlich bieten sie einen Mehraufwand beim Nutzer, da sie erst am Körper befestigt werden müssen und mit ihnen ein weiteres Gerät anfällt, dessen Akku geladen werden muss. Zusätzlich können zurzeit vergleichsweise teuer sein. 
-(Eine VIVE mit fünf zusätzlichen Trackern kostet insgesamt doppelt so viel als ohne Tracker.)
+Die Idee für diese Arbeit stammt von einem Projekt vom Fraunhofer IAO in Stuttgart. Bei dem Projekt handelt es sich um eine kollaborative VR-Umgebung. Dabei soll jeder Nutzer einen Avatar innerhalb des Virtuellen Raums steuern. 
+Gründe dafür sind verbesserte Immersion, potenziell erhöhtes Embodiment, gesteigerte Kommunikation und erkennen des Standortes der anderen Nutzer. Vor allem in kollaborativen Umgebungen wie dieser sind Avatare wichtig, da ohne Avatare die Position und die Identität der anderen Nutzer schlecht oder gar nicht erkannt werden kann. Da das Programm auch potentiell für Meetings eingesetzt werden könnte, ist auch der Kommunikationsaspekt des potentiell verbesserten Embodiments relevant. Die Animation der Avatare funktioniert aktuell über IK, wobei die Controller an den Händen und die HMD am Kopf getrackt werden und als Referenz für den Rest des Modells dienen. Das ist zwar mit wenig Aufwand für den Nutzer verbunden, da diese Konfiguration an Hardware heutzutage der Standard bei Verbraucher orientierten komplett Systemen entspricht, jedoch sind die daraus schließenden Animationen noch ungenau und oft verzögert. Da sich die getrackten Objekte alle in der Region überhalb der Hüfte befinden, müssen ein Teil der Wirbelsäule, die Hüfte und die Beine komplett anhand der Punkte oberhalb davon animiert werden. Das führt oft zu Körpern, die bei Bewegungen dem Kopf hinterher schweben.
+Eine Alternative wäre der Einsatz von mehreren Trackern an den Beinen und am Körper, womit die Genauigkeit der Animationen verbessert werden kann. Dafür führen Tracker zu höherem Entwicklungsaufwand, da sie zusätzlich IK eingesetzt werden und nicht völlig eigenständig sind. Zusätzlich liefern die Tracker je nach Anzahl einen Mehraufwand beim Nutzer, da durch sie mehr Hardware anfällt die gekauft, gelagert, aufgeladen und zum Benutzen am Körper befestigt werden muss.
 
 
 \section{Ziele}
-Aus den oben genannten Gründen möchte ich herausfinden, ob eine bessere Animation eines Avatars in VR einen Unterschied für den Benutzer in Sachen Embodiment, Immersion und Performance machen und wenn ja in welchem Ausmaß. 
+Aus den oben genannten Gründen möchte ich herausfinden, ob eine bessere Animation eines Avatars durch Tracker in VR einen Unterschied für den Benutzer in Sachen Embodiment, Immersion und Performance macht und wenn ja in welchem Ausmaß. 
 Zusätzlich möchte ich herausfinden, wie groß der Mehraufwand ist, sechs Tracker zu verwenden, jeweils im Bereich der Anwendung als auch für den Nutzer vor und während der Nutzung des Programms.
-Zum Schluss möchte ich eine Empfehlung geben, in welchen Anwendungsgebieten die Nutzung von Trackern die Nutzung von IK vorzuziehen wäre und umgekehrt.
-
-Meine Hypothese ist, dass die Immersion durch exaktere Bewegungen des Avatars erhöht wird. Ich denke dass diese höhere Immersion dabei hilft die Aufgabe besser zu absolvieren.
-Worauf ist diese Hypothese basiert?
+Am Ende möchte ich eine Empfehlung geben, in welchen Anwendungsfällen die Nutzung von Trackern der Nutzung von IK vorzuziehen wäre und wann die Nutzung von IK der Nutzung von Trackern vorzuziehen wäre.
 
 
 \section{Vorgehensweise}
-Wann mache ich was
-in welchem Kapitel
+Zuerst biete ich einen Überblick, wie die aktuelle Wissenschaft Virtuelle Realität (VR), Immersion, Embodiment und Avatare definiert. Danach gehe ich auf die Grundlagen des IK und Trackings ein. Im nächsten Kapitel beschreibe ich die Konzeption, Idee, Ziele und Umsetzung meines Versuchs sowie die Probleme und Herausforderungen, die Während der Entwicklung und Durchführung der Anwendung aufgetreten sind. In Kapitel 4 erkläre ich, welche Fragebögen ich ausgewählt habe, wie diese Ausgewertet wurden und zu welchem Ergebnis ich kam. Zum Schluss Gebe ich mein Fazit zu der Studie und zeige meine Zukunftsaussichten für das Thema.
