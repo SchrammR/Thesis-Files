@@ -82,3 +82,91 @@ vr, ausweichen, was wird passieren
 kasten zustimmen
 screenshot in anleitung
 
+
+
+--------------------------
+
+
+
+
+
+
+
+
+
+normalverteilung nur bei drei gegeben
+wenn nicht gegeben ist ein anderer test notwendig
+
+
+
+T test = zwei gruppen aber gleiche fragen
+nur bei normalverteilten fragen
+
+bei den drei ist die varianz viel zu groß für richtige ergebnisse
+
+
+standardfehler anzeigen	ein standarderror
+mult 1
+
+
+möglich, dass das ganze setup keine große auswirkung hat
+
+
+statistisch ist nichts unterschiedlich
+
+
+
+
+durchschnittsalter reinbringen mit min max
+
+
+p wert ist der, der unter 0,05 sein sollte
+p wert ist die signifikanz
+
+
+fragebögen erklären
+
+
+
+in diskussion 
+
+
+
+SE ist standard error
+
+
+
+T test für die wo er angewendet werden muss
+
+ansonsten mann whitney für die die nicht normalverteilt waren
+
+
+balkendiagramm mit standardfehler
+
+
+über normalverteilung rausfinden was signifikant ist
+
+wegen anzahl der versuchspersonen, da zwei gruppen
+tracker haben vielleicht keinen groß genugen unterschied
+
+werte einzeln anschauen
+wenn z.B. werte ohne tracker hoch sind 
+
+
+mehr über implementation
+anzahl würfel und so weiter
+wie die targets platziert werden, ...
+
+
+workload ist kein unterschied - tlx - reinbringen
+
+
+umgangssprachlich untersuchen
+
+
+
+
+
+
+
+

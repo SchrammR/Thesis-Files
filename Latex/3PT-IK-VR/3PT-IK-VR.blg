@@ -1,5 +1,7 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: 3PT-IK-VR.aux
-The style file: unsrt.bst
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: 3PT-IK-VR.aux
+The style file: alphadin.bst
 A level-1 auxiliary file: Kapitel/Deckblatt.aux
 A level-1 auxiliary file: Kapitel/Abstract.aux
 A level-1 auxiliary file: Kapitel/Inhalt.aux
@@ -10,11 +12,50 @@ A level-1 auxiliary file: Kapitel/Versuch.aux
 A level-1 auxiliary file: Kapitel/Evaluation.aux
 A level-1 auxiliary file: Kapitel/Fazit.aux
 A level-1 auxiliary file: Kapitel/Quellenverzeichnis.aux
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: Kapitel/Literatur.bib
-Repeated entry---line 141 of file Kapitel/Literatur.bib
- : @article{Holloway1995
- :                      ,
-I'm skipping whatever remains of this entry
-Warning--empty booktitle in Boas2012
-Warning--empty journal in Benford2010
-(There was 1 error message)
+You've used 21 entries,
+            4793 wiz_defined-function locations,
+            1085 strings with 11003 characters,
+and the built_in function-call counts, 19720 in all, are:
+= -- 2148
+> -- 452
+< -- 526
++ -- 579
+- -- 171
+* -- 1577
+:= -- 3089
+add.period$ -- 39
+call.type$ -- 21
+change.case$ -- 118
+chr.to.int$ -- 21
+cite$ -- 21
+duplicate$ -- 451
+empty$ -- 1440
+format.name$ -- 292
+if$ -- 3981
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 117
+newline$ -- 161
+num.names$ -- 64
+pop$ -- 159
+preamble$ -- 1
+purify$ -- 160
+quote$ -- 0
+skip$ -- 832
+stack$ -- 0
+substring$ -- 2307
+swap$ -- 133
+text.length$ -- 102
+text.prefix$ -- 5
+top$ -- 0
+type$ -- 212
+warning$ -- 0
+while$ -- 167
+width$ -- 24
+write$ -- 349
