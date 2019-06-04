@@ -25,9 +25,19 @@
 \contentsline {section}{\numberline {3.6}Probleme}{15}{section.3.6}% 
 \contentsline {chapter}{\numberline {4}Evaluation}{16}{chapter.4}% 
 \contentsline {section}{\numberline {4.1}Frageb\IeC {\"o}gen}{16}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}Umsetzung}{17}{section.4.2}% 
-\contentsline {section}{\numberline {4.3}Ergebnis}{17}{section.4.3}% 
-\contentsline {chapter}{\numberline {5}Fazit}{18}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}Fazit}{18}{section.5.1}% 
-\contentsline {section}{\numberline {5.2}Zukunftsaussichten}{18}{section.5.2}% 
+\contentsline {subsection}{\numberline {4.1.1}Embodiment Fragebogen}{17}{subsection.4.1.1}% 
+\contentsline {subsection}{\numberline {4.1.2}TLX}{18}{subsection.4.1.2}% 
+\contentsline {section}{\numberline {4.2}Auswertung}{18}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}Embodiment Ergebnisse}{18}{section.4.3}% 
+\contentsline {subsection}{\numberline {4.3.1}Diskussion - Embodiiment Bogen}{18}{subsection.4.3.1}% 
+\contentsline {section}{\numberline {4.4}TLX}{18}{section.4.4}% 
+\contentsline {section}{\numberline {4.5}Performanz der Benutzer}{18}{section.4.5}% 
+\contentsline {section}{\numberline {4.6}Kommentare}{18}{section.4.6}% 
+\contentsline {chapter}{\numberline {5}Diskussion und Ausblick}{19}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Fazit}{19}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Zukunftsaussichten}{19}{section.5.2}% 
 \contentsline {chapter}{Literatur}{}{chapter*.5}% 
+\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{}{chapter*.6}% 
+\contentsline {chapter}{\nonumberline Anhang}{I}{chapter*.7}% 
+\contentsline {section}{\numberline {A}Frageb\IeC {\"o}gen}{I}{section.Alph0.1}% 
+\contentsline {section}{\numberline {B}Diagramme}{I}{section.Alph0.2}% 
