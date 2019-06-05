@@ -8,6 +8,17 @@
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
+\bibitem[AGFOS19]{Abtahi2019}
+\textsc{Abtahi}, Parastoo ; \textsc{Gonzalez-Franco}, Mar ; \textsc{Ofek}, Eyal
+   ; \textsc{Steed}, Anthony:
+\newblock {I'm a Giant: Walking in Large Virtual Environments at High Speed
+  Gains}.
+\newblock {In: }\emph{Proceedings of the 2019 CHI Conference on Human Factors
+  in Computing Systems - CHI '19}  (2019), 1--13.
+\newblock \url{http://dx.doi.org/10.1145/3290605.3300752}. --
+\newblock DOI 10.1145/3290605.3300752.
+\newblock ISBN 9781450359702
+
 \bibitem[BBF{\etalchar{+}}10]{Benford2010}
 \textsc{Benford}, Steve ; \textsc{Bowers}, John ; \textsc{Fahl{\'{e}}n},
   Lennart~E. ; \textsc{Greenhalgh}, Chris  ; \textsc{Snowdon}, Dave:
@@ -94,6 +105,14 @@
 \newblock \url{http://dx.doi.org/10.1162/PRES}. --
 \newblock DOI 10.1162/PRES. --
 \newblock ISBN 9780199644469
+
+\bibitem[KMA19]{Koilias2019}
+\textsc{Koilias}, Alexandros ; \textsc{Mousas}, Christos  ;
+  \textsc{Anagnostopoulos}, Christos-Nikolaos:
+\newblock {The Effects of Motion Artifacts on Self-Avatar Agency}.
+\newblock {In: }\emph{Informatics} 6 (2019), Nr. 2, S.~18.
+\newblock \url{http://dx.doi.org/10.3390/informatics6020018}. --
+\newblock DOI 10.3390/informatics6020018
 
 \bibitem[LMP{\etalchar{+}}17]{Lamberti2017}
 \textsc{Lamberti}, Fabrizio ; \textsc{Manuri}, Federico ; \textsc{Paravati},
