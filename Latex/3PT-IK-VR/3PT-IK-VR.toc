@@ -11,8 +11,8 @@
 \contentsline {section}{\numberline {2.1}Virtuelle Realit\IeC {\"a}t}{3}{section.2.1}
 \contentsline {section}{\numberline {2.2}Immersion}{5}{section.2.2}
 \contentsline {section}{\numberline {2.3}Presence}{6}{section.2.3}
-\contentsline {section}{\numberline {2.4}Self Embodiment}{6}{section.2.4}
-\contentsline {section}{\numberline {2.5}Avatare}{7}{section.2.5}
+\contentsline {section}{\numberline {2.4}Self Embodiment}{7}{section.2.4}
+\contentsline {section}{\numberline {2.5}Avatare}{8}{section.2.5}
 \contentsline {section}{\numberline {2.6}Kinematik}{9}{section.2.6}
 \contentsline {section}{\numberline {2.7}Motion Tracking}{9}{section.2.7}
 \contentsline {section}{\numberline {2.8}Stand der Wissenschaft}{9}{section.2.8}
