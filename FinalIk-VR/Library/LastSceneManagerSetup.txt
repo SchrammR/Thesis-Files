@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_Scenes/VRIK-Robin.unity
+- path: Assets/RootMotion/FinalIK/_DEMOS/Limb IK/LimbIK Bend Goal.unity
   isLoaded: 1
   isActive: 1

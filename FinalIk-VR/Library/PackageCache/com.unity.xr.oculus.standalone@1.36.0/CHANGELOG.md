@@ -4,7 +4,11 @@ All notable changes to this package will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-## [1.29.1] - 2018-02-13
+## [1.36.0] - 2019-05-09
+
+Update Plugins to version 1.36.0
+
+## [1.29.1] - 2019-02-13
 
 Changed package display name to Oculus (Desktop) since Standalone was potentially confusing
 
@@ -47,13 +51,8 @@ Separated Oculus into platform specific packages and setup the repo to work with
 
 ### This is the first release of *Unity Package Oculus*.
 
-*Short description of this release*
-This is the first test iteration of the Oculus XR Package using the Package Manager process. This package is a replica of the builds.zip hosted at:
-https://ono.unity3d.com/unity-extra/vr-oculus-external#trunk
-
-We are bringing over all libraries from the builds.zip to be included and distributed through the package manager.
-This package contains the support for VR Device Oculus and for the Oculus Audio Spatializer.
+This is the first test iteration of the Oculus XR Package using the Package Manager process.
 
 The Current Oculus library version for this package is 1.21. Release notes for this version can be found here
 (make sure to change the version in the drop on the page):
-https://developer.oculus.com/downloads/package/oculus-utilities-for-unity-5/
+https://developer.oculus.com/downloads/package/unity-integration/

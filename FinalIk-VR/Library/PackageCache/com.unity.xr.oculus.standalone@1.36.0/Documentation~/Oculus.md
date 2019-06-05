@@ -7,9 +7,6 @@ More information about native virtual reality support in Unity can be found at: 
 
 To install this package, follow the instructions in the [Package Manager documentation](https://docs.unity3d.com/Packages/com.unity.package-manager-ui@latest/index.html). 
 
-In addition, you need an Oculus Device Setup on your machine:
- - https://www.oculus.com/
-
 # Using Oculus;
 
 To enabled Oculus for use in your applications, enable Virtual Reality Support through the XR Settings section of the Player Settings (Edit->Project Settings->Player) and add Oculus to the Virtual Reality SDKs list.
@@ -19,20 +16,16 @@ For additional details on using Oculus with Unity or deploying to Gear VR, see t
 
 # Technical details
 ## Requirements
-This version of Oculus is compatible with the following versions of the Unity Editor:
- - 2018.3
-
-To use this package, you must have the following 3rd party products:
-
-* Oculus Rift, © Oculus VR, LLC.
-* Samsung Gear VR, © SAMSUNG ELECTRONICS CO., LTD.
+This version of the Oculus package is compatible with the following versions of the Unity Editor:
+ - 2018.3+
 
 ## Release Notes
 
-https://developer.oculus.com/downloads/package/oculus-utilities-for-unity-5/
+https://developer.oculus.com/downloads/package/unity-integration/
 
 ## Document revision history
 |Date|Reason|
 |---|---|
+|May 9, 2019|Clean up outdated info and links.|
 |April 19, 2018|First Official version of package.|
 |October 1, 2018|Updated Unity version information.|
