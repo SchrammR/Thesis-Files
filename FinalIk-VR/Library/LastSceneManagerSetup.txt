@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/RootMotion/FinalIK/_DEMOS/Limb IK/LimbIK Bend Goal.unity
+- path: Assets/RootMotion/FinalIK/_DEMOS/VRIK/VRIK (Hit Reaction).unity
   isLoaded: 1
   isActive: 1

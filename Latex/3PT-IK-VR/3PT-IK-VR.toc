@@ -35,8 +35,8 @@
 \contentsline {chapter}{\numberline {5}Diskussion und Ausblick}{25}{chapter.5}% 
 \contentsline {section}{\numberline {5.1}Fazit}{25}{section.5.1}% 
 \contentsline {section}{\numberline {5.2}Zukunftsaussichten}{25}{section.5.2}% 
-\contentsline {chapter}{Literatur}{}{chapter*.7}% 
-\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{}{chapter*.8}% 
-\contentsline {chapter}{\nonumberline Anhang}{I}{chapter*.9}% 
+\contentsline {chapter}{Literatur}{}{chapter*.8}% 
+\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{}{chapter*.9}% 
+\contentsline {chapter}{\nonumberline Anhang}{I}{chapter*.10}% 
 \contentsline {section}{\numberline {A}Frageb\IeC {\"o}gen}{I}{section.Alph0.1}% 
 \contentsline {section}{\numberline {B}Statistische Auswertung}{XI}{section.Alph0.2}% 
