@@ -30,6 +30,11 @@
 %\KOMAoptions{DIV=last}                  % Satzspiegel neu berechnen wegen 1,5 fach Zeilenabstand
 %\flushbottom 
 
+%durchzählen der bilder
+\usepackage{chngcntr}
+\counterwithout{figure}{chapter}
+
+
 %Deutsche Rechtschreibung für Text und Lit.-verzeichnis
 \usepackage[ngerman]{babel}
 \usepackage[german]{babelbib} 
@@ -56,7 +61,7 @@
 \newcommand{\CSharp}{C\nolinebreak[4]\hspace{-.05em}\raisebox{.4ex}{\relsize{-2}{\textbf{\#}}}}
 
 % Verändert Bildunterschriften
-\addtokomafont{caption}{\small \it} 
+\addtokomafont{caption}{\small} 
 
 %Kein Einrücken bei neuem Absatz
 \setlength\parindent{0pt} 
