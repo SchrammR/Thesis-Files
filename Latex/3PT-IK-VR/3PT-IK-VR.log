@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.25)  7 JUN 2019 18:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.25)  7 JUN 2019 19:41
 entering extended mode
 **./3PT-IK-VR.tex
 (3PT-IK-VR.tex
@@ -1881,36 +1881,45 @@ Package titlesec Warning: Page style in straight class ignored on input line 21
 Package titlesec Warning: Page style in straight class ignored on input line 28
 .
 
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 37.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 34.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
+Overfull \hbox (65.0574pt too wide) in paragraph at lines 41--42
+\T1/lmr/m/n/12 fühl der Zu-ge-hö-rig-keit zu ei-nem Avat-ar-kör-per. An der Ste
+l-le fin-det 
+ []
 
-Package titlesec Warning: Page style in straight class ignored on input line 45
+[6]
+
+Package titlesec Warning: Page style in straight class ignored on input line 60
 .
 
-[6] [7]
+[7]
 
-Package titlesec Warning: Page style in straight class ignored on input line 52
+Package titlesec Warning: Page style in straight class ignored on input line 67
 .
 
 [8]
 
-Package titlesec Warning: Page style in straight class ignored on input line 58
-.
-
-<Bilder/Game/IKDummiesPicture.png, id=181, 773.89125pt x 552.0625pt>
-File: Bilder/Game/IKDummiesPicture.png Graphic file (type png)
-<use Bilder/Game/IKDummiesPicture.png>
-Package pdftex.def Info: Bilder/Game/IKDummiesPicture.png  used on input line 6
-5.
-(pdftex.def)             Requested size: 398.3386pt x 284.15952pt.
-[9]
-
 Package titlesec Warning: Page style in straight class ignored on input line 73
 .
 
-[10 <./Bilder/Game/IKDummiesPicture.png>]) [11]
+<Bilder/Game/IKDummiesPicture.png, id=183, 773.89125pt x 552.0625pt>
+File: Bilder/Game/IKDummiesPicture.png Graphic file (type png)
+<use Bilder/Game/IKDummiesPicture.png>
+Package pdftex.def Info: Bilder/Game/IKDummiesPicture.png  used on input line 8
+0.
+(pdftex.def)             Requested size: 398.3386pt x 284.15952pt.
+[9]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package titlesec Warning: Page style in straight class ignored on input line 88
+.
+
+[10]) [11 <./Bilder/Game/IKDummiesPicture.png>]
 \openout2 = `Kapitel/Versuch.aux'.
 
  (Kapitel/Versuch.tex
@@ -1919,7 +1928,7 @@ chapter 3.
 Package titlesec Warning: Page style in straight class ignored on input line 5.
 
 
-<Bilder/Game/AltesSetup.png, id=207, 659.46375pt x 523.9575pt>
+<Bilder/Game/AltesSetup.png, id=210, 659.46375pt x 523.9575pt>
 File: Bilder/Game/AltesSetup.png Graphic file (type png)
 <use Bilder/Game/AltesSetup.png>
 Package pdftex.def Info: Bilder/Game/AltesSetup.png  used on input line 13.
@@ -1949,7 +1958,7 @@ Package titlesec Warning: Page style in straight class ignored on input line 43
 .
 
 [15]
-<Bilder/Game/ingame.png, id=230, 1445.4pt x 782.925pt>
+<Bilder/Game/ingame.png, id=233, 1445.4pt x 782.925pt>
 File: Bilder/Game/ingame.png Graphic file (type png)
 <use Bilder/Game/ingame.png>
 Package pdftex.def Info: Bilder/Game/ingame.png  used on input line 51.
@@ -1998,7 +2007,7 @@ Package titlesec Warning: Page style in straight class ignored on input line 40
 .
 
 [21] [22]
-<Bilder/Diagramme/TotalEmbodiment-Kategorien.png, id=274, 1089.06876pt x 657.45
+<Bilder/Diagramme/TotalEmbodiment-Kategorien.png, id=277, 1089.06876pt x 657.45
 625pt>
 File: Bilder/Diagramme/TotalEmbodiment-Kategorien.png Graphic file (type png)
 <use Bilder/Diagramme/TotalEmbodiment-Kategorien.png>
@@ -2081,59 +2090,59 @@ LaTeX Font Info:    Try loading font information for T1+lmtt on input line 18.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 2096) in paragraph at lines 61--67
+Underfull \hbox (badness 2096) in paragraph at lines 70--76
 []\T1/lmr/m/sc/12 Gonzalez-Franco\T1/lmr/m/n/12 , Mar ; \T1/lmr/m/sc/12 Peck\T1
 /lmr/m/n/12 , Ta-bi-tha C.:  Avat-ar
  []
 
 
-Underfull \hbox (badness 1152) in paragraph at lines 61--67
+Underfull \hbox (badness 1152) in paragraph at lines 70--76
 \T1/lmr/m/n/12 Em-bo-di-ment. To-wards a Stan-dar-di-zed Ques-tionnaire.  In:
  []
 
 
-Underfull \hbox (badness 1354) in paragraph at lines 61--67
+Underfull \hbox (badness 1354) in paragraph at lines 70--76
 \T1/lmr/m/it/12 Fron-tiers in Ro-bo-tics and AI \T1/lmr/m/n/12 5 (2018), Nr. Ju
 -ne, S. 1--
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--74
-[]\T1/lmr/m/sc/12 Holloway\T1/lmr/m/n/12 , Ri-chard ; \T1/lmr/m/sc/12 La-stra\T
-1/lmr/m/n/12 , A.:  Vir-tu-al en-vi-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--74
-\T1/lmr/m/n/12 ron-ments: A sur-vey of the tech-no-lo-gy.  In: \T1/lmr/m/it/12 
-SIG-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--74
-\T1/lmr/m/it/12 GRAPH'95 Cour-se \T1/lmr/m/n/12 8 (1995), Nr. Sep-tem-ber, 1--4
-0.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--74
-[]$\T1/lmtt/m/n/12 http : / / citeseerx . ist . psu . edu / viewdoc / download 
-? doi =
  []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.75 \bibitem[HS88]{HART1988}
-                              [1
+l.77 \bibitem[HL95]{Holloway1995}
+                                  [1
 
 
 
 
 
 ]
-Underfull \hbox (badness 1383) in paragraph at lines 76--87
+Underfull \hbox (badness 10000) in paragraph at lines 78--83
+[]\T1/lmr/m/sc/12 Holloway\T1/lmr/m/n/12 , Ri-chard ; \T1/lmr/m/sc/12 La-stra\T
+1/lmr/m/n/12 , A.:  Vir-tu-al en-vi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--83
+\T1/lmr/m/n/12 ron-ments: A sur-vey of the tech-no-lo-gy.  In: \T1/lmr/m/it/12 
+SIG-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--83
+\T1/lmr/m/it/12 GRAPH'95 Cour-se \T1/lmr/m/n/12 8 (1995), Nr. Sep-tem-ber, 1--4
+0.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--83
+[]$\T1/lmtt/m/n/12 http : / / citeseerx . ist . psu . edu / viewdoc / download 
+? doi =
+ []
+
+
+Underfull \hbox (badness 1383) in paragraph at lines 85--96
 \T1/lmr/m/n/12 Pe-ter A. (Hrsg.) ; \T1/lmr/m/sc/12 Mes-h-ka-ti\T1/lmr/m/n/12 , 
 Naj-me-din (Hrsg.): \T1/lmr/m/it/12 Hu-man
  []
@@ -2142,9 +2151,9 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.137 
-       [2]
-Underfull \hbox (badness 7888) in paragraph at lines 152--157
+l.135 \bibitem[LMP{\etalchar{+}}17]{Lamberti2017}
+                                                  [2]
+Underfull \hbox (badness 7888) in paragraph at lines 170--175
 []\T1/lmr/m/sc/12 rootmotion\T1/lmr/m/n/12 :  \T1/lmr/m/it/12 ROOT-MO-TI-ON - V
 RIK\T1/lmr/m/n/12 .  []$\T1/lmtt/m/n/12 http : / /
  []
@@ -2153,9 +2162,9 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.211 
-       [3]))pdfTeX warning (ext4): destination with the same identifier (name{p
-age.}) has been already used, duplicate ignored
+l.200 \bibitem[SPMESV08]{Slater2008}
+                                     [3]))pdfTeX warning (ext4): destination wi
+th the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.40 \include{Kapitel/Quellenverzeichnis}
@@ -2187,7 +2196,7 @@ chapter without number
 Package titlesec Warning: Page style in straight class ignored on input line 4.
 
 
-<Kapitel/DemographischeFragenBogen.pdf, id=350, 597.19106pt x 845.07718pt>
+<Kapitel/DemographischeFragenBogen.pdf, id=358, 597.19106pt x 845.07718pt>
 File: Kapitel/DemographischeFragenBogen.pdf Graphic file (type pdf)
 <use Kapitel/DemographischeFragenBogen.pdf>
 Package pdftex.def Info: Kapitel/DemographischeFragenBogen.pdf  used on input l
@@ -2198,7 +2207,7 @@ File: Kapitel/DemographischeFragenBogen.pdf Graphic file (type pdf)
 Package pdftex.def Info: Kapitel/DemographischeFragenBogen.pdf  used on input l
 ine 5.
 (pdftex.def)             Requested size: 597.1896pt x 845.07512pt.
-<Kapitel/DemographischeFragenBogen.pdf, id=353, page=1, 597.19106pt x 845.07718
+<Kapitel/DemographischeFragenBogen.pdf, id=361, page=1, 597.19106pt x 845.07718
 pt>
 File: Kapitel/DemographischeFragenBogen.pdf Graphic file (type pdf)
 <use Kapitel/DemographischeFragenBogen.pdf, page 1>
@@ -2233,7 +2242,7 @@ pdfTeX warning: pdflatex (file ./Kapitel/DemographischeFragenBogen.pdf): PDF in
 clusion: invalid other resource which is no dict (key 'ProcSets', type <array>)
 ; ignored.
 >]
-<Kapitel/DemographischeFragenBogen.pdf, id=382, page=2, 597.19106pt x 845.07718
+<Kapitel/DemographischeFragenBogen.pdf, id=390, page=2, 597.19106pt x 845.07718
 pt>
 File: Kapitel/DemographischeFragenBogen.pdf Graphic file (type pdf)
 <use Kapitel/DemographischeFragenBogen.pdf, page 2>
@@ -2256,7 +2265,7 @@ pdfTeX warning: pdflatex (file ./Kapitel/DemographischeFragenBogen.pdf): PDF in
 clusion: invalid other resource which is no dict (key 'ProcSets', type <array>)
 ; ignored.
 >]
-<Kapitel/FragenZumExperimentBogen.pdf, id=394, 597.19106pt x 845.07718pt>
+<Kapitel/FragenZumExperimentBogen.pdf, id=402, 597.19106pt x 845.07718pt>
 File: Kapitel/FragenZumExperimentBogen.pdf Graphic file (type pdf)
 <use Kapitel/FragenZumExperimentBogen.pdf>
 Package pdftex.def Info: Kapitel/FragenZumExperimentBogen.pdf  used on input li
@@ -2267,7 +2276,7 @@ File: Kapitel/FragenZumExperimentBogen.pdf Graphic file (type pdf)
 Package pdftex.def Info: Kapitel/FragenZumExperimentBogen.pdf  used on input li
 ne 6.
 (pdftex.def)             Requested size: 597.1896pt x 845.07512pt.
-<Kapitel/FragenZumExperimentBogen.pdf, id=397, page=1, 597.19106pt x 845.07718p
+<Kapitel/FragenZumExperimentBogen.pdf, id=405, page=1, 597.19106pt x 845.07718p
 t>
 File: Kapitel/FragenZumExperimentBogen.pdf Graphic file (type pdf)
 <use Kapitel/FragenZumExperimentBogen.pdf, page 1>
@@ -2295,7 +2304,7 @@ pdfTeX warning: pdflatex (file ./Kapitel/FragenZumExperimentBogen.pdf): PDF inc
 lusion: invalid other resource which is no dict (key 'ProcSets', type <array>);
  ignored.
 >]
-<Kapitel/FragenZumExperimentBogen.pdf, id=420, page=2, 597.19106pt x 845.07718p
+<Kapitel/FragenZumExperimentBogen.pdf, id=428, page=2, 597.19106pt x 845.07718p
 t>
 File: Kapitel/FragenZumExperimentBogen.pdf Graphic file (type pdf)
 <use Kapitel/FragenZumExperimentBogen.pdf, page 2>
@@ -2318,7 +2327,7 @@ pdfTeX warning: pdflatex (file ./Kapitel/FragenZumExperimentBogen.pdf): PDF inc
 lusion: invalid other resource which is no dict (key 'ProcSets', type <array>);
  ignored.
 >]
-<Kapitel/FragenZumExperimentBogen.pdf, id=425, page=3, 597.19106pt x 845.07718p
+<Kapitel/FragenZumExperimentBogen.pdf, id=433, page=3, 597.19106pt x 845.07718p
 t>
 File: Kapitel/FragenZumExperimentBogen.pdf Graphic file (type pdf)
 <use Kapitel/FragenZumExperimentBogen.pdf, page 3>
@@ -2341,7 +2350,7 @@ pdfTeX warning: pdflatex (file ./Kapitel/FragenZumExperimentBogen.pdf): PDF inc
 lusion: invalid other resource which is no dict (key 'ProcSets', type <array>);
  ignored.
 >]
-<Kapitel/FragenZumExperimentBogen.pdf, id=430, page=4, 597.19106pt x 845.07718p
+<Kapitel/FragenZumExperimentBogen.pdf, id=438, page=4, 597.19106pt x 845.07718p
 t>
 File: Kapitel/FragenZumExperimentBogen.pdf Graphic file (type pdf)
 <use Kapitel/FragenZumExperimentBogen.pdf, page 4>
@@ -2364,7 +2373,7 @@ pdfTeX warning: pdflatex (file ./Kapitel/FragenZumExperimentBogen.pdf): PDF inc
 lusion: invalid other resource which is no dict (key 'ProcSets', type <array>);
  ignored.
 >]
-<Kapitel/FragenZumExperimentBogen.pdf, id=435, page=5, 597.19106pt x 845.07718p
+<Kapitel/FragenZumExperimentBogen.pdf, id=443, page=5, 597.19106pt x 845.07718p
 t>
 File: Kapitel/FragenZumExperimentBogen.pdf Graphic file (type pdf)
 <use Kapitel/FragenZumExperimentBogen.pdf, page 5>
@@ -2387,7 +2396,7 @@ pdfTeX warning: pdflatex (file ./Kapitel/FragenZumExperimentBogen.pdf): PDF inc
 lusion: invalid other resource which is no dict (key 'ProcSets', type <array>);
  ignored.
 >]
-<Kapitel/FragenZumExperimentBogen.pdf, id=441, page=6, 597.19106pt x 845.07718p
+<Kapitel/FragenZumExperimentBogen.pdf, id=449, page=6, 597.19106pt x 845.07718p
 t>
 File: Kapitel/FragenZumExperimentBogen.pdf Graphic file (type pdf)
 <use Kapitel/FragenZumExperimentBogen.pdf, page 6>
@@ -2410,7 +2419,7 @@ pdfTeX warning: pdflatex (file ./Kapitel/FragenZumExperimentBogen.pdf): PDF inc
 lusion: invalid other resource which is no dict (key 'ProcSets', type <array>);
  ignored.
 >]
-<Kapitel/FragenZumExperimentBogen.pdf, id=446, page=7, 597.19106pt x 845.07718p
+<Kapitel/FragenZumExperimentBogen.pdf, id=454, page=7, 597.19106pt x 845.07718p
 t>
 File: Kapitel/FragenZumExperimentBogen.pdf Graphic file (type pdf)
 <use Kapitel/FragenZumExperimentBogen.pdf, page 7>
@@ -2441,7 +2450,7 @@ Package titlesec Warning: Page style in straight class ignored on input line 7.
 
 pdfTeX warning: pdflatex (file ./Kapitel/MannWhitneyStatistik.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Kapitel/MannWhitneyStatistik.pdf, id=453, 597.4822pt x 845.1575pt>
+<Kapitel/MannWhitneyStatistik.pdf, id=461, 597.4822pt x 845.1575pt>
 File: Kapitel/MannWhitneyStatistik.pdf Graphic file (type pdf)
 <use Kapitel/MannWhitneyStatistik.pdf>
 Package pdftex.def Info: Kapitel/MannWhitneyStatistik.pdf  used on input line 8
@@ -2464,7 +2473,7 @@ on: found PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex (file ./Kapitel/MannWhitneyStatistik.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Kapitel/MannWhitneyStatistik.pdf, id=456, page=1, 597.4822pt x 845.1575pt>
+<Kapitel/MannWhitneyStatistik.pdf, id=464, page=1, 597.4822pt x 845.1575pt>
 File: Kapitel/MannWhitneyStatistik.pdf Graphic file (type pdf)
 <use Kapitel/MannWhitneyStatistik.pdf, page 1>
 Package pdftex.def Info: Kapitel/MannWhitneyStatistik.pdf , page1 used on input
@@ -2490,7 +2499,7 @@ Package pdftex.def Info: Kapitel/MannWhitneyStatistik.pdf , page1 used on input
 
 pdfTeX warning: pdflatex (file ./Kapitel/MannWhitneyStatistik.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Kapitel/MannWhitneyStatistik.pdf, id=479, page=2, 597.4822pt x 845.1575pt>
+<Kapitel/MannWhitneyStatistik.pdf, id=487, page=2, 597.4822pt x 845.1575pt>
 File: Kapitel/MannWhitneyStatistik.pdf Graphic file (type pdf)
 <use Kapitel/MannWhitneyStatistik.pdf, page 2>
 Package pdftex.def Info: Kapitel/MannWhitneyStatistik.pdf , page2 used on input
@@ -2510,7 +2519,7 @@ Package pdftex.def Info: Kapitel/MannWhitneyStatistik.pdf , page2 used on input
 
 pdfTeX warning: pdflatex (file ./Kapitel/Ehrenwort.pdf): PDF inclusion: found P
 DF version <1.6>, but at most version <1.5> allowed
-<Kapitel/Ehrenwort.pdf, id=488, 597.45204pt x 845.1575pt>
+<Kapitel/Ehrenwort.pdf, id=496, 597.45204pt x 845.1575pt>
 File: Kapitel/Ehrenwort.pdf Graphic file (type pdf)
 <use Kapitel/Ehrenwort.pdf>
 Package pdftex.def Info: Kapitel/Ehrenwort.pdf  used on input line 53.
@@ -2531,7 +2540,7 @@ DF version <1.6>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex (file ./Kapitel/Ehrenwort.pdf): PDF inclusion: found P
 DF version <1.6>, but at most version <1.5> allowed
-<Kapitel/Ehrenwort.pdf, id=491, page=1, 597.45204pt x 845.1575pt>
+<Kapitel/Ehrenwort.pdf, id=499, page=1, 597.45204pt x 845.1575pt>
 File: Kapitel/Ehrenwort.pdf Graphic file (type pdf)
 <use Kapitel/Ehrenwort.pdf, page 1>
 Package pdftex.def Info: Kapitel/Ehrenwort.pdf , page1 used on input line 53.
@@ -2570,15 +2579,18 @@ Package rerunfilecheck Info: File `3PT-IK-VR.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 38763 strings out of 492897
- 727429 string characters out of 3133498
- 1132166 words of memory out of 3000000
- 41837 multiletter control sequences out of 15000+200000
+ 38772 strings out of 492897
+ 727563 string characters out of 3133498
+ 1135166 words of memory out of 3000000
+ 41844 multiletter control sequences out of 15000+200000
  591482 words of font info for 64 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 76i,18n,79p,9114b,819s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 76i,18n,79p,9114b,817s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
 iKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/
 dvips/lm/lm-rm.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pf
@@ -2589,9 +2601,9 @@ ts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm
 gram Files/MiKTeX 2.9/fonts/type1/public/lm/lmro12.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/lm/lmtt12.pfb>
-Output written on 3PT-IK-VR.pdf (49 pages, 2571999 bytes).
+Output written on 3PT-IK-VR.pdf (49 pages, 2577003 bytes).
 PDF statistics:
- 693 PDF objects out of 1000 (max. 8388607)
- 117 named destinations out of 1000 (max. 500000)
+ 701 PDF objects out of 1000 (max. 8388607)
+ 119 named destinations out of 1000 (max. 500000)
  475 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -57,6 +57,15 @@
 \newblock {Overview of Virtual Reality Technologies}.
 \newblock   (2012)
 
+\bibitem[CCH15]{Caspar2015}
+\textsc{Caspar}, Emilie~A. ; \textsc{Cleeremans}, Axel  ; \textsc{Haggard},
+  Patrick:
+\newblock {The relationship between human agency and embodiment}.
+\newblock {In: }\emph{Consciousness and Cognition} 33 (2015), may, 226--236.
+\newblock \url{http://dx.doi.org/10.1016/j.concog.2015.01.007}. --
+\newblock DOI 10.1016/j.concog.2015.01.007. --
+\newblock ISSN 10538100
+
 \bibitem[GFP18]{Gonzalez-Franco2018}
 \textsc{Gonzalez-Franco}, Mar ; \textsc{Peck}, Tabitha~C.:
 \newblock {Avatar Embodiment. Towards a Standardized Questionnaire}.
@@ -95,6 +104,15 @@
 \newblock \url{http://dx.doi.org/10.1109/TVCG.2013.29}. --
 \newblock DOI 10.1109/TVCG.2013.29. --
 \newblock ISSN 10772626
+
+\bibitem[KEP{\etalchar{+}}12]{Kalckert2012}
+\textsc{Kalckert}, Andreas ; \textsc{Ehrsson}, H~H. ; \textsc{Pleger}, Burkhard
+  ; \textsc{Taubert}, Marco ; \textsc{Slater}, Mel  ; \textsc{Newport}, Roger:
+\newblock {HUMAN NEUROSCIENCE Moving a rubber hand that feels like your own: a
+  dissociation of ownership and agency}.
+\newblock   (2012).
+\newblock \url{http://dx.doi.org/10.3389/fnhum.2012.00040}. --
+\newblock DOI 10.3389/fnhum.2012.00040
 
 \bibitem[KGS12]{Kilteni2012}
 \textsc{Kilteni}, Konstantina ; \textsc{Groten}, Raphaela  ; \textsc{Slater},
