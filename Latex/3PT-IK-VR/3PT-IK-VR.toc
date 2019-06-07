@@ -9,10 +9,10 @@
 \contentsline {section}{\numberline {2.1}Virtuelle Realit\IeC {\"a}t}{3}{section.2.1}% 
 \contentsline {section}{\numberline {2.2}Immersion}{5}{section.2.2}% 
 \contentsline {section}{\numberline {2.3}Presence}{6}{section.2.3}% 
-\contentsline {section}{\numberline {2.4}Self Embodiment}{7}{section.2.4}% 
+\contentsline {section}{\numberline {2.4}Embodiment}{7}{section.2.4}% 
 \contentsline {section}{\numberline {2.5}Avatare}{8}{section.2.5}% 
-\contentsline {section}{\numberline {2.6}Kinematik}{10}{section.2.6}% 
-\contentsline {section}{\numberline {2.7}\IeC {\"A}hnliche Arbeiten}{10}{section.2.7}% 
+\contentsline {section}{\numberline {2.6}Kinematik}{9}{section.2.6}% 
+\contentsline {section}{\numberline {2.7}\IeC {\"A}hnliche Arbeiten}{11}{section.2.7}% 
 \contentsline {chapter}{\numberline {3}Versuch}{12}{chapter.3}% 
 \contentsline {section}{\numberline {3.1}Konzeption}{12}{section.3.1}% 
 \contentsline {section}{\numberline {3.2}Hypothese}{13}{section.3.2}% 
