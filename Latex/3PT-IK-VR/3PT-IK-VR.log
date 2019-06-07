@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.25)  5 JUN 2019 21:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.25)  6 JUN 2019 21:56
 entering extended mode
 **./3PT-IK-VR.tex
 (3PT-IK-VR.tex
@@ -1559,7 +1559,11 @@ Package csquotes Warning: Load 'inputenc' before 'csquotes' on input line 3.
 
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
-(3PT-IK-VR.aux)
+(3PT-IK-VR.aux (Kapitel/Deckblatt.aux) (Kapitel/Abstract.aux)
+(Kapitel/Inhalt.aux) (Kapitel/Einfuehrung.aux) (Kapitel/StandDerTechnik.aux)
+(Kapitel/Versuch.aux) (Kapitel/Evaluation.aux) (Kapitel/Fazit.aux)
+(Kapitel/Quellenverzeichnis.aux) (Kapitel/Abbildungsverzeichnis.aux)
+(Kapitel/Anhang.aux))
 \openout1 = `3PT-IK-VR.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
@@ -1791,10 +1795,18 @@ l.11 \include{Kapitel/Abstract}
 ]
 \openout2 = `Kapitel/Inhalt.aux'.
 
- (Kapitel/Inhalt.tex
+ (Kapitel/Inhalt.tex (3PT-IK-VR.tocpdfTeX warning (ext4): destination with the 
+same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.39 ...rline Abbildungsverzeichnis}{}{chapter*.9}
+                                                  % [3
 
-Package hyperref Warning: old toc file detected, not used; run LaTeX again.
 
+
+
+
+])
 \tf@toc=\write6
 \openout6 = `3PT-IK-VR.toc'.
 
@@ -1803,13 +1815,7 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.13 \include{Kapitel/Inhalt}
-                              [3
-
-
-
-
-
-]
+                              [4]
 \openout2 = `Kapitel/Einfuehrung.aux'.
 
  (Kapitel/Einfuehrung.tex
@@ -1863,117 +1869,41 @@ chapter 2.
 Package titlesec Warning: Page style in straight class ignored on input line 3.
 
 
-
-LaTeX Warning: Citation `Boas2012' on page 4 undefined on input line 4.
-
-
-LaTeX Warning: Citation `Holloway1995' on page 4 undefined on input line 7.
-
-
-LaTeX Warning: Citation `Holloway1995' on page 4 undefined on input line 9.
-
-
-LaTeX Warning: Citation `Perret2018' on page 4 undefined on input line 12.
-
 [4
 
 
 
 
 
-]
-
-LaTeX Warning: Citation `Holloway1995' on page 5 undefined on input line 14.
-
-
-LaTeX Warning: Citation `Boas2012' on page 5 undefined on input line 15.
-
-
-LaTeX Warning: Citation `Holloway1995' on page 5 undefined on input line 15.
-
-
-LaTeX Warning: Citation `Lamberti2017' on page 5 undefined on input line 16.
-
-[5]
-
-LaTeX Warning: Citation `Ragan2010' on page 6 undefined on input line 18.
-
+] [5]
 
 Package titlesec Warning: Page style in straight class ignored on input line 21
 .
-
-
-LaTeX Warning: Citation `Slater2003' on page 6 undefined on input line 22.
-
-
-LaTeX Warning: Citation `Slater1999' on page 6 undefined on input line 22.
-
-
-LaTeX Warning: Citation `Bowman2007' on page 6 undefined on input line 23.
 
 [6]
 
 Package titlesec Warning: Page style in straight class ignored on input line 28
 .
 
-
-LaTeX Warning: Citation `Kilteni2012' on page 7 undefined on input line 30.
-
-
-LaTeX Warning: Citation `Slater2003' on page 7 undefined on input line 34.
-
-
-LaTeX Warning: Citation `Slater1999' on page 7 undefined on input line 34.
-
 LaTeX Font Info:    Try loading font information for TS1+lmr on input line 37.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [7]
+)
 
 Package titlesec Warning: Page style in straight class ignored on input line 45
 .
 
-
-LaTeX Warning: Citation `Benford2010' on page 8 undefined on input line 47.
-
-
-LaTeX Warning: Citation `Tham2018' on page 8 undefined on input line 48.
-
-
-LaTeX Warning: Citation `Kilteni2012' on page 8 undefined on input line 48.
-
-
-LaTeX Warning: Citation `Botvinick1998' on page 8 undefined on input line 49.
-
-
-LaTeX Warning: Citation `Slater2008' on page 8 undefined on input line 49.
-
-[8]
+[7] [8]
 
 Package titlesec Warning: Page style in straight class ignored on input line 52
 .
-
-
-LaTeX Warning: Citation `Kilteni2013' on page 9 undefined on input line 54.
-
-
-LaTeX Warning: Citation `Biocca2014' on page 9 undefined on input line 55.
-
-
-LaTeX Warning: Citation `Mohler2010' on page 9 undefined on input line 55.
-
-
-LaTeX Warning: Citation `Pan2017' on page 9 undefined on input line 56.
 
 [9]
 
 Package titlesec Warning: Page style in straight class ignored on input line 58
 .
 
-
-LaTeX Warning: Citation `Xia2009' on page 10 undefined on input line 60.
-
-<Bilder/Game/IKDummiesPicture.png, id=77, 773.89125pt x 552.0625pt>
+<Bilder/Game/IKDummiesPicture.png, id=188, 773.89125pt x 552.0625pt>
 File: Bilder/Game/IKDummiesPicture.png Graphic file (type png)
 <use Bilder/Game/IKDummiesPicture.png>
 Package pdftex.def Info: Bilder/Game/IKDummiesPicture.png  used on input line 6
@@ -1981,17 +1911,10 @@ Package pdftex.def Info: Bilder/Game/IKDummiesPicture.png  used on input line 6
 (pdftex.def)             Requested size: 398.3386pt x 284.15952pt.
 [10]
 
-Package titlesec Warning: Page style in straight class ignored on input line 71
+Package titlesec Warning: Page style in straight class ignored on input line 73
 .
 
-
-Package titlesec Warning: Page style in straight class ignored on input line 74
-.
-
-
-LaTeX Warning: Citation `Koilias2019' on page 11 undefined on input line 75.
-
-) [11 <./Bilder/Game/IKDummiesPicture.png>]
+[11 <./Bilder/Game/IKDummiesPicture.png>]) [12]
 \openout2 = `Kapitel/Versuch.aux'.
 
  (Kapitel/Versuch.tex
@@ -2000,7 +1923,7 @@ chapter 3.
 Package titlesec Warning: Page style in straight class ignored on input line 5.
 
 
-<Bilder/Game/AltesSetup.png, id=94, 659.46375pt x 523.9575pt>
+<Bilder/Game/AltesSetup.png, id=212, 659.46375pt x 523.9575pt>
 File: Bilder/Game/AltesSetup.png Graphic file (type png)
 <use Bilder/Game/AltesSetup.png>
 Package pdftex.def Info: Bilder/Game/AltesSetup.png  used on input line 13.
@@ -2009,32 +1932,26 @@ Package pdftex.def Info: Bilder/Game/AltesSetup.png  used on input line 13.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Reference `fig:oldSetup' on page 12 undefined on input line 18.
-
-
 Package titlesec Warning: Page style in straight class ignored on input line 20
 .
 
-[12
+[13
 
 
 
 
 
-] [13 <./Bilder/Game/AltesSetup.png>]
+] [14 <./Bilder/Game/AltesSetup.png>]
 
 Package titlesec Warning: Page style in straight class ignored on input line 32
 .
 
-[14]
+[15]
 
 Package titlesec Warning: Page style in straight class ignored on input line 39
 .
 
-
-LaTeX Warning: Reference `fig:povSetup' on page 15 undefined on input line 41.
-
-<Bilder/Game/ingame.png, id=113, 1445.4pt x 782.925pt>
+<Bilder/Game/ingame.png, id=230, 1445.4pt x 782.925pt>
 File: Bilder/Game/ingame.png Graphic file (type png)
 <use Bilder/Game/ingame.png>
 Package pdftex.def Info: Bilder/Game/ingame.png  used on input line 47.
@@ -2042,20 +1959,17 @@ Package pdftex.def Info: Bilder/Game/ingame.png  used on input line 47.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[15]
+[16]
 
 Package titlesec Warning: Page style in straight class ignored on input line 59
 .
 
-
-LaTeX Warning: Citation `rootmotion' on page 16 undefined on input line 61.
-
-[16 <./Bilder/Game/ingame.png>]
+[17 <./Bilder/Game/ingame.png>]
 
 Package titlesec Warning: Page style in straight class ignored on input line 64
 .
 
-) [17]
+) [18]
 \openout2 = `Kapitel/Evaluation.aux'.
 
  (Kapitel/Evaluation.tex
@@ -2064,14 +1978,7 @@ chapter 4.
 Package titlesec Warning: Page style in straight class ignored on input line 3.
 
 
-
-LaTeX Warning: Citation `Gonzalez-Franco2018' on page 18 undefined on input lin
-e 7.
-
-
-LaTeX Warning: Citation `HART1988' on page 18 undefined on input line 10.
-
-[18
+[19
 
 
 
@@ -2082,76 +1989,58 @@ LaTeX Warning: Citation `HART1988' on page 18 undefined on input line 10.
 Package titlesec Warning: Page style in straight class ignored on input line 15
 .
 
-[19]
-
-Package titlesec Warning: Page style in straight class ignored on input line 56
-.
-
 [20]
 
-LaTeX Warning: Citation `Gonzalez-Franco2018' on page 21 undefined on input lin
-e 61.
+Package titlesec Warning: Page style in straight class ignored on input line 40
+.
 
-[21]
-
-LaTeX Warning: Citation `Abtahi2019' on page 22 undefined on input line 98.
-
-[22]
-
-LaTeX Warning: Citation `Abtahi2019' on page 23 undefined on input line 101.
-
-
-LaTeX Warning: Citation `Koilias2019' on page 23 undefined on input line 107.
+[21] [22]
+<Bilder/Diagramme/TotalEmbodiment-Kategorien.png, id=275, 1089.06876pt x 657.45
+625pt>
+File: Bilder/Diagramme/TotalEmbodiment-Kategorien.png Graphic file (type png)
+<use Bilder/Diagramme/TotalEmbodiment-Kategorien.png>
+Package pdftex.def Info: Bilder/Diagramme/TotalEmbodiment-Kategorien.png  used 
+on input line 80.
+(pdftex.def)             Requested size: 398.3386pt x 240.46611pt.
 
 
-LaTeX Warning: Citation `Koilias2019' on page 23 undefined on input line 117.
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[23]
+
+LaTeX Warning: Citation `Caspar2015' on page 24 undefined on input line 88.
 
 
-Overfull \hbox (81.96463pt too wide) in paragraph at lines 120--121
+LaTeX Warning: Citation `Kalckert2012' on page 24 undefined on input line 88.
+
+[24 <./Bilder/Diagramme/TotalEmbodiment-Kategorien.png>]
+Overfull \hbox (81.96463pt too wide) in paragraph at lines 106--107
 []\T1/lmr/m/n/12 agency hat aber th-ge-o-re-tisch aus-wir-kun-gen auf ge-fühl-t
 e selbst age-nyc 
  []
 
 
-Overfull \hbox (46.45218pt too wide) in paragraph at lines 126--128
+Overfull \hbox (46.45218pt too wide) in paragraph at lines 112--114
 []\T1/lmr/m/n/12 Dass es ne-ga-ti-ve und po-si-ti-ve gibt *Dia-gramm* von ow-ne
 r-ship 
  []
 
-<Bilder/Diagramme/TotalEmbodiment-Kategorien.png, id=164, 1089.06876pt x 657.45
-625pt>
-File: Bilder/Diagramme/TotalEmbodiment-Kategorien.png Graphic file (type png)
-<use Bilder/Diagramme/TotalEmbodiment-Kategorien.png>
-Package pdftex.def Info: Bilder/Diagramme/TotalEmbodiment-Kategorien.png  used 
-on input line 132.
-(pdftex.def)             Requested size: 398.3386pt x 240.46611pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Reference `fig:TotalEmbodiment-Kategorien' on page 23 undefined 
-on input line 137.
-
-
-Package titlesec Warning: Page style in straight class ignored on input line 14
-4.
-
-
-LaTeX Warning: Citation `Abtahi2019' on page 23 undefined on input line 148.
-
-
-Package titlesec Warning: Page style in straight class ignored on input line 15
+Package titlesec Warning: Page style in straight class ignored on input line 12
 1.
 
 
-Package titlesec Warning: Page style in straight class ignored on input line 15
-6.
+Package titlesec Warning: Page style in straight class ignored on input line 12
+8.
 
-[23]) [24 <./Bilder/Diagramme/TotalEmbodiment-Kategorien.png>]
+
+Package titlesec Warning: Page style in straight class ignored on input line 13
+3.
+
+) [25]
 \openout2 = `Kapitel/Fazit.aux'.
 
-
-(Kapitel/Fazit.tex
+ (Kapitel/Fazit.tex
 chapter 5.
 
 Overfull \hbox (29.7736pt too wide) in paragraph at lines 6--7
@@ -2173,7 +2062,7 @@ Overfull \hbox (72.52084pt too wide) in paragraph at lines 15--36
  Auf-ga-be 
  []
 
-[25
+[26
 
 
 
@@ -2271,10 +2160,7 @@ l.40 \include{Kapitel/Quellenverzeichnis}
 \openout2 = `Kapitel/Abbildungsverzeichnis.aux'.
 
 
-(Kapitel/Abbildungsverzeichnis.tex
-
-Package hyperref Warning: old lof file detected, not used; run LaTeX again.
-
+(Kapitel/Abbildungsverzeichnis.tex (3PT-IK-VR.lof)
 \tf@lof=\write7
 \openout7 = `3PT-IK-VR.lof'.
 
@@ -2298,7 +2184,7 @@ chapter without number
 Package titlesec Warning: Page style in straight class ignored on input line 4.
 
 
-<Kapitel/DemographischeFragenBogen.pdf, id=259, 597.19106pt x 845.07718pt>
+<Kapitel/DemographischeFragenBogen.pdf, id=351, 597.19106pt x 845.07718pt>
 File: Kapitel/DemographischeFragenBogen.pdf Graphic file (type pdf)
 <use Kapitel/DemographischeFragenBogen.pdf>
 Package pdftex.def Info: Kapitel/DemographischeFragenBogen.pdf  used on input l
@@ -2309,7 +2195,7 @@ File: Kapitel/DemographischeFragenBogen.pdf Graphic file (type pdf)
 Package pdftex.def Info: Kapitel/DemographischeFragenBogen.pdf  used on input l
 ine 5.
 (pdftex.def)             Requested size: 597.1896pt x 845.07512pt.
-<Kapitel/DemographischeFragenBogen.pdf, id=262, page=1, 597.19106pt x 845.07718
+<Kapitel/DemographischeFragenBogen.pdf, id=354, page=1, 597.19106pt x 845.07718
 pt>
 File: Kapitel/DemographischeFragenBogen.pdf Graphic file (type pdf)
 <use Kapitel/DemographischeFragenBogen.pdf, page 1>
@@ -2344,7 +2230,7 @@ pdfTeX warning: pdflatex (file ./Kapitel/DemographischeFragenBogen.pdf): PDF in
 clusion: invalid other resource which is no dict (key 'ProcSets', type <array>)
 ; ignored.
 >]
-<Kapitel/DemographischeFragenBogen.pdf, id=292, page=2, 597.19106pt x 845.07718
+<Kapitel/DemographischeFragenBogen.pdf, id=383, page=2, 597.19106pt x 845.07718
 pt>
 File: Kapitel/DemographischeFragenBogen.pdf Graphic file (type pdf)
 <use Kapitel/DemographischeFragenBogen.pdf, page 2>
@@ -2367,7 +2253,7 @@ pdfTeX warning: pdflatex (file ./Kapitel/DemographischeFragenBogen.pdf): PDF in
 clusion: invalid other resource which is no dict (key 'ProcSets', type <array>)
 ; ignored.
 >]
-<Kapitel/FragenZumExperimentBogen.pdf, id=304, 597.19106pt x 845.07718pt>
+<Kapitel/FragenZumExperimentBogen.pdf, id=395, 597.19106pt x 845.07718pt>
 File: Kapitel/FragenZumExperimentBogen.pdf Graphic file (type pdf)
 <use Kapitel/FragenZumExperimentBogen.pdf>
 Package pdftex.def Info: Kapitel/FragenZumExperimentBogen.pdf  used on input li
@@ -2378,7 +2264,7 @@ File: Kapitel/FragenZumExperimentBogen.pdf Graphic file (type pdf)
 Package pdftex.def Info: Kapitel/FragenZumExperimentBogen.pdf  used on input li
 ne 6.
 (pdftex.def)             Requested size: 597.1896pt x 845.07512pt.
-<Kapitel/FragenZumExperimentBogen.pdf, id=307, page=1, 597.19106pt x 845.07718p
+<Kapitel/FragenZumExperimentBogen.pdf, id=398, page=1, 597.19106pt x 845.07718p
 t>
 File: Kapitel/FragenZumExperimentBogen.pdf Graphic file (type pdf)
 <use Kapitel/FragenZumExperimentBogen.pdf, page 1>
@@ -2406,7 +2292,7 @@ pdfTeX warning: pdflatex (file ./Kapitel/FragenZumExperimentBogen.pdf): PDF inc
 lusion: invalid other resource which is no dict (key 'ProcSets', type <array>);
  ignored.
 >]
-<Kapitel/FragenZumExperimentBogen.pdf, id=331, page=2, 597.19106pt x 845.07718p
+<Kapitel/FragenZumExperimentBogen.pdf, id=421, page=2, 597.19106pt x 845.07718p
 t>
 File: Kapitel/FragenZumExperimentBogen.pdf Graphic file (type pdf)
 <use Kapitel/FragenZumExperimentBogen.pdf, page 2>
@@ -2429,7 +2315,7 @@ pdfTeX warning: pdflatex (file ./Kapitel/FragenZumExperimentBogen.pdf): PDF inc
 lusion: invalid other resource which is no dict (key 'ProcSets', type <array>);
  ignored.
 >]
-<Kapitel/FragenZumExperimentBogen.pdf, id=336, page=3, 597.19106pt x 845.07718p
+<Kapitel/FragenZumExperimentBogen.pdf, id=426, page=3, 597.19106pt x 845.07718p
 t>
 File: Kapitel/FragenZumExperimentBogen.pdf Graphic file (type pdf)
 <use Kapitel/FragenZumExperimentBogen.pdf, page 3>
@@ -2452,7 +2338,7 @@ pdfTeX warning: pdflatex (file ./Kapitel/FragenZumExperimentBogen.pdf): PDF inc
 lusion: invalid other resource which is no dict (key 'ProcSets', type <array>);
  ignored.
 >]
-<Kapitel/FragenZumExperimentBogen.pdf, id=341, page=4, 597.19106pt x 845.07718p
+<Kapitel/FragenZumExperimentBogen.pdf, id=431, page=4, 597.19106pt x 845.07718p
 t>
 File: Kapitel/FragenZumExperimentBogen.pdf Graphic file (type pdf)
 <use Kapitel/FragenZumExperimentBogen.pdf, page 4>
@@ -2475,7 +2361,7 @@ pdfTeX warning: pdflatex (file ./Kapitel/FragenZumExperimentBogen.pdf): PDF inc
 lusion: invalid other resource which is no dict (key 'ProcSets', type <array>);
  ignored.
 >]
-<Kapitel/FragenZumExperimentBogen.pdf, id=346, page=5, 597.19106pt x 845.07718p
+<Kapitel/FragenZumExperimentBogen.pdf, id=436, page=5, 597.19106pt x 845.07718p
 t>
 File: Kapitel/FragenZumExperimentBogen.pdf Graphic file (type pdf)
 <use Kapitel/FragenZumExperimentBogen.pdf, page 5>
@@ -2498,7 +2384,7 @@ pdfTeX warning: pdflatex (file ./Kapitel/FragenZumExperimentBogen.pdf): PDF inc
 lusion: invalid other resource which is no dict (key 'ProcSets', type <array>);
  ignored.
 >]
-<Kapitel/FragenZumExperimentBogen.pdf, id=351, page=6, 597.19106pt x 845.07718p
+<Kapitel/FragenZumExperimentBogen.pdf, id=442, page=6, 597.19106pt x 845.07718p
 t>
 File: Kapitel/FragenZumExperimentBogen.pdf Graphic file (type pdf)
 <use Kapitel/FragenZumExperimentBogen.pdf, page 6>
@@ -2521,7 +2407,7 @@ pdfTeX warning: pdflatex (file ./Kapitel/FragenZumExperimentBogen.pdf): PDF inc
 lusion: invalid other resource which is no dict (key 'ProcSets', type <array>);
  ignored.
 >]
-<Kapitel/FragenZumExperimentBogen.pdf, id=356, page=7, 597.19106pt x 845.07718p
+<Kapitel/FragenZumExperimentBogen.pdf, id=447, page=7, 597.19106pt x 845.07718p
 t>
 File: Kapitel/FragenZumExperimentBogen.pdf Graphic file (type pdf)
 <use Kapitel/FragenZumExperimentBogen.pdf, page 7>
@@ -2552,7 +2438,7 @@ Package titlesec Warning: Page style in straight class ignored on input line 7.
 
 pdfTeX warning: pdflatex (file ./Kapitel/MannWhitneyStatistik.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Kapitel/MannWhitneyStatistik.pdf, id=364, 597.4822pt x 845.1575pt>
+<Kapitel/MannWhitneyStatistik.pdf, id=454, 597.4822pt x 845.1575pt>
 File: Kapitel/MannWhitneyStatistik.pdf Graphic file (type pdf)
 <use Kapitel/MannWhitneyStatistik.pdf>
 Package pdftex.def Info: Kapitel/MannWhitneyStatistik.pdf  used on input line 8
@@ -2575,7 +2461,7 @@ on: found PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex (file ./Kapitel/MannWhitneyStatistik.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Kapitel/MannWhitneyStatistik.pdf, id=367, page=1, 597.4822pt x 845.1575pt>
+<Kapitel/MannWhitneyStatistik.pdf, id=457, page=1, 597.4822pt x 845.1575pt>
 File: Kapitel/MannWhitneyStatistik.pdf Graphic file (type pdf)
 <use Kapitel/MannWhitneyStatistik.pdf, page 1>
 Package pdftex.def Info: Kapitel/MannWhitneyStatistik.pdf , page1 used on input
@@ -2601,7 +2487,7 @@ Package pdftex.def Info: Kapitel/MannWhitneyStatistik.pdf , page1 used on input
 
 pdfTeX warning: pdflatex (file ./Kapitel/MannWhitneyStatistik.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Kapitel/MannWhitneyStatistik.pdf, id=391, page=2, 597.4822pt x 845.1575pt>
+<Kapitel/MannWhitneyStatistik.pdf, id=480, page=2, 597.4822pt x 845.1575pt>
 File: Kapitel/MannWhitneyStatistik.pdf Graphic file (type pdf)
 <use Kapitel/MannWhitneyStatistik.pdf, page 2>
 Package pdftex.def Info: Kapitel/MannWhitneyStatistik.pdf , page2 used on input
@@ -2621,7 +2507,7 @@ Package pdftex.def Info: Kapitel/MannWhitneyStatistik.pdf , page2 used on input
 
 pdfTeX warning: pdflatex (file ./Kapitel/Ehrenwort.pdf): PDF inclusion: found P
 DF version <1.6>, but at most version <1.5> allowed
-<Kapitel/Ehrenwort.pdf, id=400, 597.45204pt x 845.1575pt>
+<Kapitel/Ehrenwort.pdf, id=489, 597.45204pt x 845.1575pt>
 File: Kapitel/Ehrenwort.pdf Graphic file (type pdf)
 <use Kapitel/Ehrenwort.pdf>
 Package pdftex.def Info: Kapitel/Ehrenwort.pdf  used on input line 53.
@@ -2642,7 +2528,7 @@ DF version <1.6>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex (file ./Kapitel/Ehrenwort.pdf): PDF inclusion: found P
 DF version <1.6>, but at most version <1.5> allowed
-<Kapitel/Ehrenwort.pdf, id=403, page=1, 597.45204pt x 845.1575pt>
+<Kapitel/Ehrenwort.pdf, id=492, page=1, 597.45204pt x 845.1575pt>
 File: Kapitel/Ehrenwort.pdf Graphic file (type pdf)
 <use Kapitel/Ehrenwort.pdf, page 1>
 Package pdftex.def Info: Kapitel/Ehrenwort.pdf , page1 used on input line 53.
@@ -2681,31 +2567,31 @@ Package rerunfilecheck Info: File `3PT-IK-VR.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 38718 strings out of 492897
- 725653 string characters out of 3133498
- 1133166 words of memory out of 3000000
- 41818 multiletter control sequences out of 15000+200000
+ 38764 strings out of 492897
+ 727440 string characters out of 3133498
+ 1132166 words of memory out of 3000000
+ 41837 multiletter control sequences out of 15000+200000
  591482 words of font info for 64 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,18n,79p,9114b,819s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/M
-iKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/d
-vips/lm/lm-ts1.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm
-/lmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/lm/lmro12.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/lm/lmtt12.pfb>
-Output written on 3PT-IK-VR.pdf (47 pages, 2552741 bytes).
+pdfTeX warning (dest): name{section.2.8} has been referenced but does not exi
+st, replaced by a fixed one
+
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiK
+TeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dv
+ips/lm/lm-rm.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/l
+mr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/lm/lmro12.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/lm/lmtt12.pfb>
+Output written on 3PT-IK-VR.pdf (49 pages, 2570842 bytes).
 PDF statistics:
- 607 PDF objects out of 1000 (max. 8388607)
- 117 named destinations out of 1000 (max. 500000)
- 483 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 694 PDF objects out of 1000 (max. 8388607)
+ 118 named destinations out of 1000 (max. 500000)
+ 475 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -13,28 +13,27 @@
 \contentsline {section}{\numberline {2.4}Self Embodiment}{8}{section.2.4}% 
 \contentsline {section}{\numberline {2.5}Avatare}{9}{section.2.5}% 
 \contentsline {section}{\numberline {2.6}Kinematik}{10}{section.2.6}% 
-\contentsline {section}{\numberline {2.7}Motion Tracking}{11}{section.2.7}% 
-\contentsline {section}{\numberline {2.8}Stand der Wissenschaft}{11}{section.2.8}% 
-\contentsline {chapter}{\numberline {3}Versuch}{12}{chapter.3}% 
-\contentsline {section}{\numberline {3.1}Konzeption}{12}{section.3.1}% 
-\contentsline {section}{\numberline {3.2}Hypothese}{13}{section.3.2}% 
-\contentsline {section}{\numberline {3.3}Hardware}{14}{section.3.3}% 
-\contentsline {section}{\numberline {3.4}Versuchsaufbau}{15}{section.3.4}% 
-\contentsline {section}{\numberline {3.5}Engine}{17}{section.3.5}% 
-\contentsline {section}{\numberline {3.6}Probleme}{17}{section.3.6}% 
-\contentsline {chapter}{\numberline {4}Evaluation}{18}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Frageb\IeC {\"o}gen}{18}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}Auswertung}{19}{section.4.2}% 
+\contentsline {section}{\numberline {2.7}Stand der Wissenschaft}{11}{section.2.7}% 
+\contentsline {chapter}{\numberline {3}Versuch}{13}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Konzeption}{13}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}Hypothese}{14}{section.3.2}% 
+\contentsline {section}{\numberline {3.3}Hardware}{15}{section.3.3}% 
+\contentsline {section}{\numberline {3.4}Versuchsaufbau}{16}{section.3.4}% 
+\contentsline {section}{\numberline {3.5}Engine}{18}{section.3.5}% 
+\contentsline {section}{\numberline {3.6}Probleme}{18}{section.3.6}% 
+\contentsline {chapter}{\numberline {4}Evaluation}{19}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Frageb\IeC {\"o}gen}{19}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}Auswertung}{20}{section.4.2}% 
 \contentsline {section}{\numberline {4.3}Avatar Embodiment Questionnaire}{21}{section.4.3}% 
-\contentsline {subsection}{\numberline {4.3.1}Embodiment Ergebnisse}{22}{subsection.4.3.1}% 
-\contentsline {subsection}{\numberline {4.3.2}Diskussion - Embodiment Bogen}{24}{subsection.4.3.2}% 
-\contentsline {section}{\numberline {4.4}TLX}{24}{section.4.4}% 
-\contentsline {subsection}{\numberline {4.4.1}TLX Ergebnisse}{24}{subsection.4.4.1}% 
-\contentsline {section}{\numberline {4.5}Performanz der Benutzer}{24}{section.4.5}% 
-\contentsline {section}{\numberline {4.6}Kommentare}{24}{section.4.6}% 
-\contentsline {chapter}{\numberline {5}Diskussion und Ausblick}{25}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}Fazit}{25}{section.5.1}% 
-\contentsline {section}{\numberline {5.2}Zukunftsaussichten}{25}{section.5.2}% 
+\contentsline {subsection}{\numberline {4.3.1}Avatar Embodiment Questionnaire Ergebnisse}{23}{subsection.4.3.1}% 
+\contentsline {subsection}{\numberline {4.3.2}Diskussion - Embodiment Bogen}{25}{subsection.4.3.2}% 
+\contentsline {section}{\numberline {4.4}TLX}{25}{section.4.4}% 
+\contentsline {subsection}{\numberline {4.4.1}TLX Ergebnisse}{25}{subsection.4.4.1}% 
+\contentsline {section}{\numberline {4.5}Performanz der Benutzer}{25}{section.4.5}% 
+\contentsline {section}{\numberline {4.6}Kommentare}{25}{section.4.6}% 
+\contentsline {chapter}{\numberline {5}Diskussion und Ausblick}{26}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Fazit}{26}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Zukunftsaussichten}{26}{section.5.2}% 
 \contentsline {chapter}{Literatur}{}{chapter*.8}% 
 \contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{}{chapter*.9}% 
 \contentsline {chapter}{\nonumberline Anhang}{I}{chapter*.10}% 
