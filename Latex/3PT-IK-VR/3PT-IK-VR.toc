@@ -26,16 +26,15 @@
 \contentsline {section}{\numberline {4.2}Auswertung}{20}{section.4.2}% 
 \contentsline {section}{\numberline {4.3}Avatar Embodiment Questionnaire}{21}{section.4.3}% 
 \contentsline {subsection}{\numberline {4.3.1}Avatar Embodiment Questionnaire Ergebnisse}{23}{subsection.4.3.1}% 
-\contentsline {subsection}{\numberline {4.3.2}Diskussion - Embodiment Bogen}{26}{subsection.4.3.2}% 
-\contentsline {section}{\numberline {4.4}TLX}{26}{section.4.4}% 
-\contentsline {subsection}{\numberline {4.4.1}TLX Ergebnisse}{26}{subsection.4.4.1}% 
-\contentsline {section}{\numberline {4.5}Performanz der Benutzer}{26}{section.4.5}% 
-\contentsline {section}{\numberline {4.6}Kommentare}{26}{section.4.6}% 
-\contentsline {chapter}{\numberline {5}Diskussion und Ausblick}{27}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}Fazit}{27}{section.5.1}% 
-\contentsline {section}{\numberline {5.2}Zukunftsaussichten}{27}{section.5.2}% 
-\contentsline {chapter}{Literatur}{}{chapter*.9}% 
-\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{}{chapter*.10}% 
-\contentsline {chapter}{\nonumberline Anhang}{I}{chapter*.11}% 
+\contentsline {subsection}{\numberline {4.3.2}Diskussion - Embodiment Bogen}{27}{subsection.4.3.2}% 
+\contentsline {section}{\numberline {4.4}TLX}{27}{section.4.4}% 
+\contentsline {subsection}{\numberline {4.4.1}TLX Ergebnisse}{27}{subsection.4.4.1}% 
+\contentsline {section}{\numberline {4.5}Performanz der Benutzer}{27}{section.4.5}% 
+\contentsline {chapter}{\numberline {5}Diskussion und Ausblick}{28}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Fazit}{28}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Zukunftsaussichten}{28}{section.5.2}% 
+\contentsline {chapter}{Literatur}{}{chapter*.10}% 
+\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{}{chapter*.11}% 
+\contentsline {chapter}{\nonumberline Anhang}{I}{chapter*.12}% 
 \contentsline {section}{\numberline {A}Frageb\IeC {\"o}gen}{I}{section.Alph0.1}% 
 \contentsline {section}{\numberline {B}Statistische Auswertung}{XI}{section.Alph0.2}% 
