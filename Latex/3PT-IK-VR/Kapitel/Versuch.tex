@@ -1,5 +1,5 @@
 \chapter{Versuch}
-In dem Versuch soll getestet werden, ob der Nutzen von Trackern die Performanz und das Embodiment eines Nutzers gegenüber einer Inverse-Kinematik Lösung für Avatare erhöht. Es wurden zwei Gruppen getestet, die miteinander verglichen werden. Eine Gruppe durchläuft das Experiment mit einem durch IK animierten Avatar. Der Avatar der anderen Gruppe wird mithilfe von sechs zusätzlichen Trackern durch die Bewegungen der Testperson animiert. 
+In dem Versuch soll getestet werden, ob der Nutzen von Trackern die Performanz und das Embodiment eines Nutzers gegenüber einer inverse Kinematik (IK) Lösung für Avatare erhöht. Es wurden zwei Gruppen getestet, die miteinander verglichen werden. Eine Gruppe durchläuft das Experiment mit einem durch IK animierten Avatar. Der Avatar der anderen Gruppe wird mithilfe von sechs zusätzlichen Trackern durch die Bewegungen der Testperson animiert. 
 Der Versuchsaufbau in Form eines Ausweichspiels ist für beide Gruppen identisch. Alle Probanden müssen roten Objekten ausweichen während sie grüne Objekte einsammeln sollen. In dem virtuellen Raum befindet sich in Blickrichtung ein großer Spiegel, um den Fokus auf den Avatar zu lenken.
 Jedem Teilnehmer wird der gleiche Avatar in Form einer Holzpuppe zur Verfügung gestellt.
 
@@ -7,8 +7,6 @@ Jedem Teilnehmer wird der gleiche Avatar in Form einer Holzpuppe zur Verfügung 
 \section{Konzeption}
 Die Entscheidungen im Versuchsaufbau basieren darauf, den Fokus auf die Animation des Avatars zu legen. Um das zu erreichen werden die Aspekte des Embodiments neben der Agency so gering wie möglich gehalten. Vor allem der Aspekt des Body Ownerships wird vernachlässigt, indem der bereitgestellte Avatar mehr einer Holzpuppe als einem echten Menschen ähnelt. Somit spielen auch unterschiedliche Geschlechter und Hautfarben der Probanden eine kleinere Rolle, da sich niemand perfekt mit dem Avatar identifizieren können sollte. Die Umgebung ist ebenfalls so gestaltet, dass sie möglichst wenig Presence auslöst. So befindet der Teilnehmer sich in einem abstrakten, größtenteils leeren Raum. Der Boden ist mit einer kachelartigen Textur ausgestattet, die bei der Einschätzung von Distanzen helfen soll. Es werden keinerlei Geräusche eingesetzt, da Ton Einfluss auf das Embodiment haben kann und somit die Ergebnisse verfälschen könnte. 
 Ein weiteres Element, das den Fokus des Versuchs auf den Avatar und dessen Bewegungen lenkt ist der Spiegel im Raum, der eine Komplette Wand einnimmt. Der Spiegel soll zum einen Helfen, den Fokus auf den Avatar zu lenken. Da dem Teilnehmer keine Zeit während des Spiels gegeben wird, um den Avatar in Ruhe zu untersuchen, bietet der Spiegel die Möglichkeit, während der Konzentration auf die sich bewegenden Objekte, den Avatar zu sehen und wahrzunehmen. Zum anderen soll der Spiegel bei der Einschätzung der Entfernung der Objekte helfen.
-
-^^ nochmal überarbeiten
 
 \begin{figure}[h]
   \makebox[\textwidth]{
@@ -18,8 +16,7 @@ Ein weiteres Element, das den Fokus des Versuchs auf den Avatar und dessen Beweg
   \label{fig:oldSetup}
 \end{figure}
 
-In Abbildung \ref{fig:oldSetup} ist ein früher Prototyp der Anwendung dargestellt. Erst später in der Entwicklungsphase wurde die rote Farbe des Avatars in ein hellbraun umgeändert, da die Farbe zu sehr den Hazards glich.
-
+In Abbildung \ref{fig:oldSetup} ist ein früher Prototyp der Anwendung dargestellt. Erst später in der Entwicklungsphase wurde die rote Farbe des Avatars in ein hellbraun umgeändert, da die Farbe zu sehr den Hindernissen glich. Auffällig sind auch die dunkleren Farben und die größe des Raums, die zu einengend wirkten und in späteren Versionen geändert wurden.
 
 Der Versuch wurde nach einem Inter-Subjekt Design durchgeführt. Bei Inter-Subjekt Design wird von jedem Probanden jeweils nur eine der Versuchsbedingungen durchgeführt. Dadurch wird vermieden, dass sich die Versuchspersonen zu stark auf den Unterschied zwischen den Versuchsbedingungen konzentrieren und somit die Antworten verfälscht werden könnten. Außerdem könnte bei einem Intra-Subjekt Design, bei dem jeder Proband alle Bedingungen durchläuft, die als zweites durchgeführte Versuchsbedingung fälschlicherweise höhere Embodiment Werte aufweisen, da sich das Gefühl von Embodiment erst nach einer Gewissen Zeit in der Virtuellen Umgebung entwickelt.
 
@@ -59,9 +56,6 @@ Das Startfeld muss berührt werden, damit der Durchlauf des Spiels beginnt. Das 
 Die komplette Anwendung verzichtet auf Tasteneingaben des Benutzers, alle benötigten Eingaben passieren durch Berührung des Avatars mit den Objekten.
 Sobald das Spiel gestartet wurde, bewegen sich von vorne aus dem Spiegel die Hazards und Collectibles in einem bestimmten Intervall und bewegen sich durch das begehbare Gebiet bis sie wieder aus der Rückwand verschwinden. Die Position der einzelnen Objekte wird vor dem Spiel zufällig innerhalb einem bestimmten Gebiet festgelegt. Zusätzlich können alle Objekte mit einer Wahrscheinlichkeit von 20 Prozent in der Luft schwebend statt auf dem Boden erscheinen. Dies soll den Spieler anregen, sich in gewissen Situationen zu ducken, um einem Hazard auszuweichen oder seine Hände zu bewegen um ein Collectible, welche über einem Hazard schwebt, einzusammeln. Während der gesamten Zeit wird dem Spieler seine Punktzahl angezeigt. Nachdem 40 Hazards und 20 Collectibles erschienen sind, ist das Spiel vorbei. Somit ist die höchste zu erreichende Punktzahl 40 und die niedrigste zu erreichende Punktzahl -40. Neben der gesamten Punktzahl werden bei Spielende die jeweils getroffenen Hazards und Collectibles angezeigt.
 Sobald das Spiel beginnt, wird der Avatar ausgehend von der Position der HMD in alle Richtungen Skaliert. Das wirkt der unterschiedlichen Körpergröße bei verschiedenen Personen entgegen, da der Avatar bei kleineren Personen gebeugt steht oder bei größeren Personen den Boden nicht berührt.
-
-mehr zum durchlauf
-
 
 
 \section{Engine}
