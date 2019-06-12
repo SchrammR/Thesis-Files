@@ -10,6 +10,7 @@ A level-1 auxiliary file: Kapitel/StandDerTechnik.aux
 A level-1 auxiliary file: Kapitel/Versuch.aux
 A level-1 auxiliary file: Kapitel/Evaluation.aux
 A level-1 auxiliary file: Kapitel/Fazit.aux
+A level-1 auxiliary file: Kapitel/Danksagung.aux
 A level-1 auxiliary file: Kapitel/Quellenverzeichnis.aux
 A level-1 auxiliary file: Kapitel/Abbildungsverzeichnis.aux
 A level-1 auxiliary file: Kapitel/Anhang.aux
@@ -21,42 +22,42 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: Kapitel/Literatur.bib
 You've used 24 entries,
             4793 wiz_defined-function locations,
-            1108 strings with 11854 characters,
-and the built_in function-call counts, 23216 in all, are:
-= -- 2524
+            1084 strings with 11086 characters,
+and the built_in function-call counts, 19274 in all, are:
+= -- 2050
 > -- 548
-< -- 650
+< -- 639
 + -- 721
 - -- 208
-* -- 1850
-:= -- 3661
-add.period$ -- 46
+* -- 1408
+:= -- 3197
+add.period$ -- 27
 call.type$ -- 24
 change.case$ -- 140
 chr.to.int$ -- 24
 cite$ -- 24
-duplicate$ -- 518
-empty$ -- 1658
+duplicate$ -- 487
+empty$ -- 1249
 format.name$ -- 356
-if$ -- 4646
+if$ -- 3735
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 132
-newline$ -- 183
+missing$ -- 130
+newline$ -- 147
 num.names$ -- 73
-pop$ -- 188
+pop$ -- 186
 preamble$ -- 1
 purify$ -- 188
 quote$ -- 0
-skip$ -- 995
+skip$ -- 1046
 stack$ -- 0
-substring$ -- 2715
-swap$ -- 155
-text.length$ -- 120
+substring$ -- 1622
+swap$ -- 144
+text.length$ -- 109
 text.prefix$ -- 5
 top$ -- 0
-type$ -- 242
+type$ -- 243
 warning$ -- 0
-while$ -- 194
+while$ -- 188
 width$ -- 27
-write$ -- 399
+write$ -- 327

@@ -14,25 +14,24 @@
 \contentsline {section}{\numberline {2.6}Kinematik}{10}{section.2.6}
 \contentsline {section}{\numberline {2.7}\IeC {\"A}hnliche Arbeiten}{12}{section.2.7}
 \contentsline {chapter}{\numberline {3}Versuch}{13}{chapter.3}
-\contentsline {section}{\numberline {3.1}Konzeption}{13}{section.3.1}
+\contentsline {section}{\numberline {3.1}Konzeption}{14}{section.3.1}
 \contentsline {section}{\numberline {3.2}Hypothese}{15}{section.3.2}
-\contentsline {section}{\numberline {3.3}Hardware}{15}{section.3.3}
-\contentsline {section}{\numberline {3.4}Versuchsaufbau}{16}{section.3.4}
-\contentsline {section}{\numberline {3.5}Engine}{18}{section.3.5}
-\contentsline {section}{\numberline {3.6}Probleme}{18}{section.3.6}
+\contentsline {section}{\numberline {3.3}Hardware}{16}{section.3.3}
+\contentsline {section}{\numberline {3.4}Versuchsaufbau}{17}{section.3.4}
+\contentsline {section}{\numberline {3.5}Engine}{19}{section.3.5}
+\contentsline {section}{\numberline {3.6}Probleme}{19}{section.3.6}
 \contentsline {section}{\numberline {3.7}Versuchsdurchf\IeC {\"u}hrung}{19}{section.3.7}
-\contentsline {chapter}{\numberline {4}Evaluation}{20}{chapter.4}
-\contentsline {section}{\numberline {4.1}Frageb\IeC {\"o}gen}{20}{section.4.1}
-\contentsline {section}{\numberline {4.2}Auswertung}{21}{section.4.2}
-\contentsline {section}{\numberline {4.3}Avatar Embodiment Questionnaire}{22}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Avatar Embodiment Questionnaire Ergebnisse}{24}{subsection.4.3.1}
-\contentsline {section}{\numberline {4.4}TLX}{28}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}TLX Ergebnisse}{28}{subsection.4.4.1}
-\contentsline {section}{\numberline {4.5}Performanz der Benutzer}{28}{section.4.5}
-\contentsline {chapter}{\numberline {5}Diskussion und Ausblick}{29}{chapter.5}
-\contentsline {section}{\numberline {5.1}Zukunftsaussichten}{30}{section.5.1}
-\contentsline {chapter}{Literatur}{}{chapter*.10}
-\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{}{chapter*.11}
-\contentsline {chapter}{\nonumberline Anhang}{I}{chapter*.12}
+\contentsline {chapter}{\numberline {4}Evaluation}{21}{chapter.4}
+\contentsline {section}{\numberline {4.1}Frageb\IeC {\"o}gen}{21}{section.4.1}
+\contentsline {section}{\numberline {4.2}Auswertung}{22}{section.4.2}
+\contentsline {section}{\numberline {4.3}Avatar Embodiment Questionnaire}{23}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Avatar Embodiment Questionnaire Ergebnisse}{25}{subsection.4.3.1}
+\contentsline {section}{\numberline {4.4}NASA TLX}{29}{section.4.4}
+\contentsline {section}{\numberline {4.5}Performanz der Benutzer}{30}{section.4.5}
+\contentsline {chapter}{\numberline {5}Diskussion und Ausblick}{31}{chapter.5}
+\contentsline {section}{\numberline {5.1}Zukunftsaussichten}{32}{section.5.1}
+\contentsline {chapter}{Literatur}{}{chapter*.13}
+\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{}{chapter*.14}
+\contentsline {chapter}{\nonumberline Anhang}{I}{chapter*.15}
 \contentsline {section}{\numberline {A}Frageb\IeC {\"o}gen}{I}{section.Alph0.1}
 \contentsline {section}{\numberline {B}Statistische Auswertung}{XI}{section.Alph0.2}

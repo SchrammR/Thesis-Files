@@ -14,26 +14,20 @@
 \newblock {I'm a Giant: Walking in Large Virtual Environments at High Speed
   Gains}.
 \newblock {In: }\emph{Proceedings of the 2019 CHI Conference on Human Factors
-  in Computing Systems - CHI '19}  (2019), 1--13.
-\newblock \url{http://dx.doi.org/10.1145/3290605.3300752}. --
-\newblock DOI 10.1145/3290605.3300752.
+  in Computing Systems - CHI '19}  (2019), S. 1--13.
 \newblock ISBN 9781450359702
 
 \bibitem[BBF{\etalchar{+}}10]{Benford2010}
 \textsc{Benford}, Steve ; \textsc{Bowers}, John ; \textsc{Fahl{\'{e}}n},
   Lennart~E. ; \textsc{Greenhalgh}, Chris  ; \textsc{Snowdon}, Dave:
 \newblock {User embodiment in collaborative virtual environments}.
-\newblock   (2010), S. 242--249.
-\newblock \url{http://dx.doi.org/10.1145/223904.223935}. --
-\newblock DOI 10.1145/223904.223935
+\newblock   (2010), S. 242--249
 
 \bibitem[BC98]{Botvinick1998}
 \textsc{Botvinick}, Matthew ; \textsc{Cohen}, Jonathan:
 \newblock {Rubber hand feels touch that eyes see}.
-\newblock {In: }\emph{Nature} 391 (1998), Nr. February, S. 756.
-\newblock \url{http://dx.doi.org/10.1038/35784}. --
-\newblock DOI 10.1038/35784. --
-\newblock ISBN doi:10.1038/35784
+\newblock {In: }\emph{Nature} 391 (1998), Nr. February, S. 756. --
+\newblock ISSN 0028--0836
 
 \bibitem[Bio14]{Biocca2014}
 \textsc{Biocca}, Frank:
@@ -47,9 +41,7 @@
 \bibitem[BM07]{Bowman2007}
 \textsc{Bowman}, Doug~A. ; \textsc{McMahan}, Ryan~P.:
 \newblock {Virtual reality: How much immersion is enough?}
-\newblock {In: }\emph{Computer} 40 (2007), Nr. 7, S. 36--43.
-\newblock \url{http://dx.doi.org/10.1109/MC.2007.257}. --
-\newblock DOI 10.1109/MC.2007.257. --
+\newblock {In: }\emph{Computer} 40 (2007), Nr. 7, S. 36--43. --
 \newblock ISSN 00189162
 
 \bibitem[Boa12]{Boas2012}
@@ -60,30 +52,21 @@
 \bibitem[GFP18]{Gonzalez-Franco2018}
 \textsc{Gonzalez-Franco}, Mar ; \textsc{Peck}, Tabitha~C.:
 \newblock {Avatar Embodiment. Towards a Standardized Questionnaire}.
-\newblock {In: }\emph{Frontiers in Robotics and AI} 5 (2018), Nr. June, S.
-  1--9.
-\newblock \url{http://dx.doi.org/10.3389/frobt.2018.00074}. --
-\newblock DOI 10.3389/frobt.2018.00074
+\newblock {In: }\emph{Frontiers in Robotics and AI} 5 (2018), Nr. June, S. 1--9
 
 \bibitem[HL95]{Holloway1995}
 \textsc{Holloway}, Richard ; \textsc{Lastra}, A.:
 \newblock {Virtual environments: A survey of the technology}.
-\newblock {In: }\emph{SIGGRAPH'95 Course} 8 (1995), Nr. September, 1--40.
-\newblock
-  \url{http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.91.7388{\&}rep=rep1{\&}type=pdf}
+\newblock {In: }\emph{SIGGRAPH'95 Course} 8 (1995), Nr. September, S. 1--40
 
 \bibitem[HS88]{HART1988}
 \textsc{Hart}, Sandra~G. ; \textsc{Staveland}, Lowell~E.:
 \newblock Development of NASA-TLX (Task Load Index): Results of Empirical and
   Theoretical Research.
-\newblock \,Version:\,1988.
-\newblock
-  \url{http://dx.doi.org/https://doi.org/10.1016/S0166-4115(08)62386-9}.
 \newblock {In: }\textsc{Hancock}, Peter~A. (Hrsg.) ; \textsc{Meshkati},
   Najmedin (Hrsg.): \emph{Human Mental Workload} Bd.~52.
 \newblock North-Holland, 1988. --
-\newblock DOI https://doi.org/10.1016/S0166--4115(08)62386--9. --
-\newblock ISSN 0166--4115, 139 - 183
+\newblock ISSN 0166--4115, S. 139 -- 183
 
 \bibitem[KBS13]{Kilteni2013}
 \textsc{Kilteni}, Konstantina ; \textsc{Bergstrom}, Ilias  ; \textsc{Slater},
@@ -91,9 +74,7 @@
 \newblock {Drumming in immersive virtual reality: The body shapes the way we
   play}.
 \newblock {In: }\emph{IEEE Transactions on Visualization and Computer Graphics}
-  19 (2013), Nr. 4, S. 597--605.
-\newblock \url{http://dx.doi.org/10.1109/TVCG.2013.29}. --
-\newblock DOI 10.1109/TVCG.2013.29. --
+  19 (2013), Nr. 4, S. 597--605. --
 \newblock ISSN 10772626
 
 \bibitem[KEP{\etalchar{+}}12]{Kalckert2012}
@@ -101,27 +82,21 @@
   ; \textsc{Taubert}, Marco ; \textsc{Slater}, Mel  ; \textsc{Newport}, Roger:
 \newblock {HUMAN NEUROSCIENCE Moving a rubber hand that feels like your own: a
   dissociation of ownership and agency}.
-\newblock   (2012).
-\newblock \url{http://dx.doi.org/10.3389/fnhum.2012.00040}. --
-\newblock DOI 10.3389/fnhum.2012.00040
+\newblock   (2012)
 
 \bibitem[KGS12]{Kilteni2012}
 \textsc{Kilteni}, Konstantina ; \textsc{Groten}, Raphaela  ; \textsc{Slater},
   Mel:
 \newblock {The Sense Of Embodiment in VR}.
 \newblock {In: }\emph{Presence: Teleoperators {\&} Virtual Environments} 21
-  (2012), Nr. 4, 373--387.
-\newblock \url{http://dx.doi.org/10.1162/PRES}. --
-\newblock DOI 10.1162/PRES. --
+  (2012), Nr. 4, S. 373--387. --
 \newblock ISBN 9780199644469
 
 \bibitem[KMA19]{Koilias2019}
 \textsc{Koilias}, Alexandros ; \textsc{Mousas}, Christos  ;
   \textsc{Anagnostopoulos}, Christos-Nikolaos:
 \newblock {The Effects of Motion Artifacts on Self-Avatar Agency}.
-\newblock {In: }\emph{Informatics} 6 (2019), Nr. 2, S.~18.
-\newblock \url{http://dx.doi.org/10.3390/informatics6020018}. --
-\newblock DOI 10.3390/informatics6020018
+\newblock {In: }\emph{Informatics} 6 (2019), Nr. 2, S.~18
 
 \bibitem[LMP{\etalchar{+}}17]{Lamberti2017}
 \textsc{Lamberti}, Fabrizio ; \textsc{Manuri}, Federico ; \textsc{Paravati},
@@ -129,9 +104,7 @@
 \newblock {Using Semantics to Automatically Generate Speech Interfaces for
   Wearable Virtual and Augmented Reality Applications}.
 \newblock {In: }\emph{IEEE Transactions on Human-Machine Systems} 47 (2017),
-  Nr. 1, S. 152--164.
-\newblock \url{http://dx.doi.org/10.1109/THMS.2016.2573830}. --
-\newblock DOI 10.1109/THMS.2016.2573830. --
+  Nr. 1, S. 152--164. --
 \newblock ISSN 21682291
 
 \bibitem[MCRTB10]{Mohler2010}
@@ -139,9 +112,7 @@
   ; \textsc{B{\"{u}}lthoff}, H~H.:
 \newblock {The Effect of Viewing a Self-Avatar on Distance Judgments in an
   HMD-Based Virtual Environment}.
-\newblock {In: }\emph{Presence} 19 (2010), jun, Nr. 3, S. 230--242.
-\newblock \url{http://dx.doi.org/10.1162/pres.19.3.230}. --
-\newblock DOI 10.1162/pres.19.3.230. --
+\newblock {In: }\emph{Presence} 19 (2010), jun, Nr. 3, S. 230--242. --
 \newblock ISSN 1054--7460
 
 \bibitem[PP18]{Perret2018}
@@ -153,9 +124,7 @@
 \textsc{Pan}, Ye ; \textsc{Steed}, Anthony:
 \newblock {The impact of self-avatars on trust and collaboration in shared
   virtual environments}.
-\newblock {In: }\emph{PLOS ONE} 12 (2017), Nr. 12, 1--20.
-\newblock \url{http://dx.doi.org/10.1371/journal.pone.0189078}. --
-\newblock DOI 10.1371/journal.pone.0189078
+\newblock {In: }\emph{PLOS ONE} 12 (2017), Nr. 12, S. 1--20
 
 \bibitem[{roo}19]{rootmotion}
 \textsc{{rootmotion}}:
@@ -178,9 +147,7 @@
 \newblock {Measuring Presence: A Response to the Witmer and Singer Presence
   Questionnaire}.
 \newblock {In: }\emph{Presence: Teleoperators and Virtual Environments} 8
-  (2002), Nr. 5, S. 560--565.
-\newblock \url{http://dx.doi.org/10.1162/105474699566477}. --
-\newblock DOI 10.1162/105474699566477. --
+  (2002), Nr. 5, S. 560--565. --
 \newblock ISSN 1054--7460
 
 \bibitem[Sla03]{Slater2003}
@@ -193,9 +160,7 @@
   ; \textsc{Sanchez-Vives}, Maria~V.:
 \newblock {Towards a digital body: The virtual arm illusion}.
 \newblock {In: }\emph{Frontiers in Human Neuroscience} 2 (2008), Nr. August, S.
-  1--8.
-\newblock \url{http://dx.doi.org/10.3389/neuro.09.006.2008}. --
-\newblock DOI 10.3389/neuro.09.006.2008
+  1--8
 
 \bibitem[TDG{\etalchar{+}}18]{Tham2018}
 \textsc{Tham}, Jason ; \textsc{Duin}, Ann~H. ; \textsc{Gee}, Laura ;
@@ -204,18 +169,14 @@
 \newblock {Understanding Virtual Reality: Presence, Embodiment, and
   Professional Practice}.
 \newblock {In: }\emph{IEEE Transactions on Professional Communication} 61
-  (2018), Nr. 2, S. 178--195.
-\newblock \url{http://dx.doi.org/10.1109/TPC.2018.2804238}. --
-\newblock DOI 10.1109/TPC.2018.2804238. --
+  (2018), Nr. 2, S. 178--195. --
 \newblock ISSN 03611434
 
 \bibitem[XW09]{Xia2009}
 \textsc{Xia}, ShiHong ; \textsc{Wang}, ZhaoQi:
 \newblock {Recent advances on virtual human synthesis}.
 \newblock {In: }\emph{Science in China Series F: Information Sciences} 52
-  (2009), may, Nr. 5, 741--757.
-\newblock \url{http://dx.doi.org/10.1007/s11432-009-0088-7}. --
-\newblock DOI 10.1007/s11432--009--0088--7. --
+  (2009), may, Nr. 5, S. 741--757. --
 \newblock ISSN 1862--2836
 
 \end{thebibliography}
